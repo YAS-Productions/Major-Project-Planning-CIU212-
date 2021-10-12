@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
-  m_Name: ForwardRenderer
+  m_Name: FastGlitchUrp
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: 2922642542889373209}
-  m_RendererFeatureMap: 198e5d6ee84f8f28
+  - {fileID: 5811032928975000373}
+  m_RendererFeatureMap: 
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
---- !u!114 &2922642542889373209
+--- !u!114 &5811032928975000373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,10 +56,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61171b01155a1884683ae977cd0b2a5c, type: 3}
   m_Name: FastGlitchUrpPass
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
     Event: 500
     blitMaterial: {fileID: 2100000, guid: e78cd3190be03e24ebf5d04a8f119594, type: 2}
-    ChromaticGlitch: 0.314
-    FrameGlitch: 0.102
-    PixelGlitch: 0.391
+    ChromaticGlitch: 0.286
+    FrameGlitch: 0.085
+    PixelGlitch: 0.304
