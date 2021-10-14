@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,7 +15,7 @@ MonoBehaviour:
   diaryList:
   - _languageSlot:
     - diaryTitle:
-      - Title
+      - Book (Starting Area)
       diaryTextDisplayState: 00
       diaryText:
       - New description
@@ -36,6 +37,33 @@ MonoBehaviour:
       uniqueItemID: 0
       itemType: 0
       audioPriority: 0
+    - diaryTitle:
+      - Book(Start Room)
+      diaryTextDisplayState: 01
+      diaryText:
+      - There seems to be a clue written inside.
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 21300000, guid: 8809b324ee6124bd5ba262ddd7e8920f, type: 3}
+      refGameObject: {fileID: 5109881889333199514, guid: d0b3c6e7725954b48b6da0f5b6431f69,
+        type: 3}
+      showInInventory: 1
+      prefabSizeInViewer: 4
+      prefabRotationInViewer: {x: 19.392248, y: 286.42166, z: 265.25824}
+      uniqueItemID: 1
+      itemType: 0
+      audioPriority: 0
   helpBoxEditor: 1
   idEditorSize: 20
   titleEditorSize: 240
@@ -54,3 +82,5 @@ MonoBehaviour:
   editorType: 1
   showDefaultLanguage: 0
   multipleVoiceOver: 0
+  b_ShowEye: 0
+  b_UI_DisplayTextArea: 0
