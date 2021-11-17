@@ -1,0 +1,846 @@
+2021-11-17
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_4" 4 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_-2033749255_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_-2033749255_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_-2033749255_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_4" 4 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_4" 4 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_725698098_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct1_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_725698098_0" 4 0 0 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_725698098_1" 4 0 1 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_4" 4 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_2" 4 0 2 direct1_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_0" 4 0 0 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_1" 4 0 1 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_4" 4 0 2 batchpointlight_2_0_4.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_2" 4 0 2 direct1_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_0" 4 0 0 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_1" 4 0 1 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_2" 4 0 2 direct1_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_0" 4 0 0 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_1" 4 0 1 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_2" 4 0 2 direct1_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_0" 4 0 0 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_14471427_1" 4 0 1 direct1.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 2
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for Seanie's Playspace_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Seanie's Playspace_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos3D "C:\Users\User\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 2 fixPos3D_2.bin
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\User\AppData\Local\Temp\frender" "uvpos_Seanie's Playspace_LMA1.lz4" 2 0 1 0
+Running ftraceRTX ao "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_ao" 8 16 1
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_2_0_5" 4 0 2 batchpointlight_2_0_5.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_2" 1924 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_2" 4 0 2 direct0_volumes.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "volumes" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_0_0_5" 4 0 0 batchpointlight_0_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\User\AppData\Local\Temp\frender" "PointBatch_1_0_5" 4 0 1 batchpointlight_1_0_5.bin
+Running ftraceRTX skycubemapdir "C:\Users\User\AppData\Local\Temp\frender" "light_274690582_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\User\AppData\Local\Temp\frender" "light_1863779858_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM00.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA10.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM01.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA11.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM02.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA12.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_diffuse" 4 16 0 "gi_Seanie's Playspace_LM03.bin" "Seanie's Playspace_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_diffuse" 4 16 1 "gi_Seanie's Playspace_LMA13.bin" "Seanie's Playspace_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final" 1940 16 2 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final" 84 16 0 "gi_Seanie's Playspace_LM04.bin" "Seanie's Playspace_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final" 84 16 1 "gi_Seanie's Playspace_LMA14.bin" "Seanie's Playspace_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftraceRTX add "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX diradd "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftraceRTX addsh "C:\Users\User\AppData\Local\Temp\frender" "volumes_final_" 4 0 2 shcomp_2.bin
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" 1024 0
+Running ftraceRTX addao "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "0" "Seanie's Playspace_LM0_final_HDR.lz4" "Seanie's Playspace_LM0_final_Dir.lz4
+Running denoiser D "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" 1024 0
+Running ftraceRTX addao "C:\Users\User\AppData\Local\Temp\frender" "Seanie's Playspace_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser c "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\User\AppData\Local\Temp\frender" "1" "Seanie's Playspace_LMA1_final_HDR.lz4" "Seanie's Playspace_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LM0_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_HDR.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\User\AppData\Local\Temp\frender/Seanie's Playspace_LMA1_final_Dir.lz4" "D:/Unity/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/Seanie's Playspace_LMA1_dir.tga" 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+
+Done
+Done
+Done
+Done
