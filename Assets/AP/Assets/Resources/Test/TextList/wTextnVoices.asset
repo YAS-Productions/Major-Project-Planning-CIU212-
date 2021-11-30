@@ -169,7 +169,13 @@ MonoBehaviour:
       - Clue#1
       diaryTextDisplayState: 01
       diaryText:
-      - 'An american soldiers tool when they couldn''t pronounce the word Offiziersmesser.
+      - 'Do you recall this scene? Maybe this little test will jog your memory. What
+        happened that fateful night? I''ve left the clues. It''s up to you to solve
+        the mystery. I''ll wait for you behind the door on your left.
+
+
+        -
+        Your biggest fan
 
 
 
@@ -196,6 +202,36 @@ MonoBehaviour:
       uniqueItemID: 4
       itemType: 0
       audioPriority: 0
+    - diaryTitle:
+      - Coroner's Report
+      diaryTextDisplayState: 01
+      diaryText:
+      - "wTo whom it may concern, \n\nPlease find a copy of the coroner's findings
+        concerning the murder in question. \n\nVictims suffered blunt-force trauma.
+        The male showing multiple points of contact across the spine, neck and skull.
+        The female was hit directly in the back of the head, causing severe blood
+        loss. \n\nI pray this information assists in your investigation. "
+      diaryAudioClip:
+      - {fileID: 0}
+      diarySub:
+      - showMore: 00
+        startPointsClip:
+        - 0
+        firstLetter:
+        - 0
+        lastLetter: 1e000000
+        bypasstextLayout: 00
+        textSub:
+        - 
+      diarySprite:
+      - {fileID: 0}
+      refGameObject: {fileID: 0}
+      showInInventory: 0
+      prefabSizeInViewer: 0.5
+      prefabRotationInViewer: {x: 1, y: 1, z: 1}
+      uniqueItemID: 5
+      itemType: 0
+      audioPriority: 0
   helpBoxEditor: 1
   idEditorSize: 20
   titleEditorSize: 240
@@ -212,7 +248,7 @@ MonoBehaviour:
   b_EditSubtitle: 0
   currentAudioSubtitleEdit: 1
   editorType: 0
-  showDefaultLanguage: 0
+  showDefaultLanguage: 1
   multipleVoiceOver: 0
   b_ShowEye: 0
   b_UI_DisplayTextArea: 0
