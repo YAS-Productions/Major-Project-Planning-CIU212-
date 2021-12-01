@@ -844,3 +844,1168 @@ Done
 Done
 Done
 Done
+2021-12-2
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-858883992_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_0" 1924 0 3 batchpointlight_3_0_0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-858883992_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-858883992_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-858883992_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1986358021_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_0" 1924 0 3 batchpointlight_3_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1986358021_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1986358021_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1986358021_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1343775056_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_561578864_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_0" 1924 0 3 batchpointlight_3_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_561578864_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_561578864_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_561578864_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1788668952_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1788668952_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1788668952_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1788668952_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_589617592_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_0" 1924 0 3 batchpointlight_3_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_589617592_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_589617592_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_589617592_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_0" 1924 0 2 batchpointlight_2_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_849794775_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_0" 1924 0 3 batchpointlight_3_0_0.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_849794775_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_849794775_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_849794775_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2041242341_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2041242341_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2041242341_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2041242341_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+2021-12-2
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1372191548_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1372191548_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1372191548_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1372191548_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1828978501_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1828978501_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1828978501_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1828978501_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-503359477_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-503359477_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-503359477_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-503359477_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1186531572_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1186531572_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1186531572_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1186531572_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1579547041_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_1579547041_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1579547041_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_1579547041_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_1" 1924 0 2 batchpointlight_2_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2039983445_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_1" 1924 0 3 batchpointlight_3_0_1.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2039983445_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2039983445_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-2039983445_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_2" 1924 0 2 batchpointlight_2_0_2.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-698924515_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_2" 1924 0 3 batchpointlight_3_0_2.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-698924515_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_2" 4 0 0 batchpointlight_0_0_2.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-698924515_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_2" 4 0 1 batchpointlight_1_0_2.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-698924515_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 2
+Num alphas of 2048x2048: 1
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for 02_Room_1_Detective_Proto_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for volumes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftrace fixpos3D "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_volumes.lz4" 2 0 3 fixPos3D_3.bin
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LM0.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\Ram\AppData\Local\Temp\frender" "uvpos_02_Room_1_Detective_Proto_LMA1.lz4" 2 0 1 0
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_2_0_2" 1924 0 2 batchpointlight_2_0_2.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_2" 1924 0 2 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1079613322_2" 1924 0 2 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftrace batchpointlightprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_3_0_2" 1924 0 3 batchpointlight_3_0_2.bin
+Running ftrace skycubemapprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_3" 1924 0 3 sky0.bin
+Running ftrace sunprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1079613322_3" 1924 0 3 direct0_volumes.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "volumes" 4 0 3 comp_3.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_0_0_2" 4 0 0 batchpointlight_0_0_2.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_0" 4 0 0 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1079613322_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0" 4 0 0 comp_0.bin
+Running ftrace batchpointlight "C:\Users\Ram\AppData\Local\Temp\frender" "PointBatch_1_0_2" 4 0 1 batchpointlight_1_0_2.bin
+Running ftrace skycubemap "C:\Users\Ram\AppData\Local\Temp\frender" "light_-684193311_1" 4 0 1 sky0.bin
+Running ftrace sun "C:\Users\Ram\AppData\Local\Temp\frender" "light_-1079613322_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1" 4 0 1 comp_1.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM00.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA10.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM01.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA11.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM02.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA12.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_diffuse" 4 16 0 "gi_02_Room_1_Detective_Proto_LM03.bin" "02_Room_1_Detective_Proto_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_diffuse" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA13.bin" "02_Room_1_Detective_Proto_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final" 1924 16 3 "gi_volumes4.bin" "volumes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LM0_final" 4 16 0 "gi_02_Room_1_Detective_Proto_LM04.bin" "02_Room_1_Detective_Proto_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Ram\AppData\Local\Temp\frender" "02_Room_1_Detective_Proto_LMA1_final" 4 16 1 "gi_02_Room_1_Detective_Proto_LMA14.bin" "02_Room_1_Detective_Proto_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running ftrace addsh "C:\Users\Ram\AppData\Local\Temp\frender" "volumes_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "0" "02_Room_1_Detective_Proto_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\Ram\AppData\Local\Temp\frender" "1" "02_Room_1_Detective_Proto_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LM0_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Ram\AppData\Local\Temp\frender/02_Room_1_Detective_Proto_LMA1_final_HDR.lz4" "C:/Users/Ram/Documents/GitKraken/Major-Project-Planning-CIU212-/Assets/BakeryLightmaps/02_Room_1_Detective_Proto_LMA1_final.hdr" 1024
