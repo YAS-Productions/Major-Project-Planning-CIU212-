@@ -57,7 +57,10 @@ MonoBehaviour:
   - Assets/QA_Books/Models/Books_34.fbx
   - Assets/QA_Books/Models/Books_10.fbx
   - Assets/QA_Books/Models/Book_23.fbx
-  modifiedAssetPaddingHash: aaf8cc2eecc12491ecc124911328c115ecc12491ecc12491ecc12491ecc12491ecc12491ecc12491f927c115ecc12491ecc124910838ed04d6318883d63188838109ecc0ecc12491d94608c8ecc12491ecc12491ecc124910c38ed04ecc12491ecc12491ecc12491ecc12491ecc12491ecc124910c38ed04ecc12491ced15080f437ed04ecc12491ecc12491ecc12491ecc12491ecc12491ecc12491cd318883ecc12491c1d15080cc318883ecc12491
+  - Assets/AP/Assets/Models/Sphere_Env.fbx
+  - Assets/AP/Assets/Models/Code_LCD.fbx
+  - Assets/AP/Assets/Models/Code_Machine_01.fbx
+  modifiedAssetPaddingHash: aaf8cc2eecc12491ecc124911328c115ecc12491ecc12491ecc12491ecc12491ecc12491ecc12491f927c115ecc12491ecc124910838ed04d6318883d63188838109ecc0ecc12491d94608c8ecc12491ecc12491ecc124910c38ed04ecc12491ecc12491ecc12491ecc12491ecc12491ecc124910c38ed04ecc12491ced15080f437ed04ecc12491ecc12491ecc12491ecc12491ecc12491ecc12491cd318883ecc12491c1d15080cc318883ecc12491353fd3d9ecc12491edc12491
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -612,6 +615,18 @@ MonoBehaviour:
     - Book_23
     padding: 00010000
     unwrapper: 00000000
+  - meshName:
+    - pSphere3
+    padding: 06000000
+    unwrapper: 00000000
+  - meshName:
+    - Code_LCD
+    padding: 00010000
+    unwrapper: 00000000
+  - meshName:
+    - Code_Machine_01
+    padding: ff000000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
@@ -673,10 +688,10 @@ MonoBehaviour:
   uvOverlapAssetList: 00000000ffffffff00000000000000000000000000000000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000
   xatlasWarningShown: 1
   foundCompatibleSetup: 1
-  gpuName: NVIDIA GeForce RTX 2080
+  gpuName: NVIDIA Quadro P2000
   runsNonRTX: 1
-  runsOptix5: 1
-  runsOptix6: 1
+  runsOptix5: 0
+  runsOptix6: 0
   runsOptix7: 1
   runsOIDN: 1
   alwaysEnableRTX: 0
@@ -740,7 +755,7 @@ MonoBehaviour:
   renderSettingsHoleFilling: 0
   renderSettingsBeepOnFinish: 0
   renderSettingsExportTerrainAsHeightmap: 1
-  renderSettingsRTXMode: 0
+  renderSettingsRTXMode: 1
   renderSettingsLightProbeMode: 1
   renderSettingsClientMode: 0
   renderSettingsServerAddress: 127.0.0.1
@@ -756,5 +771,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 00010000
+  modifiedMeshPaddingArray: ff000000
   modifiedMeshUnwrapperArray: 00000000
