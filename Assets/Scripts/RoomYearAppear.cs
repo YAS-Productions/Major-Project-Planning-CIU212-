@@ -23,6 +23,6 @@ public class RoomYearAppear : MonoBehaviour
     {
         canvas.SetActive(true);
         audioSource.PlayOneShot(boom);
-        Destroy(canvas, 2);
+        Destroy(canvas, 3);
     }
 }
