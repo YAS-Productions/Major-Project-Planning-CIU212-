@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnableFlashLight : MonoBehaviour
 {
     public GameObject flashlight;
+    public GameObject inventoryFlashlight;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +15,11 @@ public class EnableFlashLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(flashlight.activeInHierarchy == false)
+        {
+            inventoryFlashlight.SetActive(true);
+        }
     }
 
-    public void FlashLightInInventory()
-    {
-        flashlight.SetActive(true);
-    }
+   
 }
