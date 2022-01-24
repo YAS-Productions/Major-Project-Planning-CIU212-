@@ -24,6 +24,7 @@ public class inventoryALLEntry : MonoBehaviour {
 	//--> Section UI : inventory Reader Section
 	public Text 			inventoryTitleTxt;
 	public Text 			inventoryDescriptionTxt;
+    
 	private int 			currentEntryDisplayedOnScreen = 0;
 
 
@@ -52,6 +53,8 @@ public class inventoryALLEntry : MonoBehaviour {
         {
             manageDesktopInputs();
         }
+        
+        
 	}
 
 	//--> Manage Inputs
