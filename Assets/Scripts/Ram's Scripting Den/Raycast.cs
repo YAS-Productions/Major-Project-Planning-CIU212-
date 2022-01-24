@@ -19,7 +19,7 @@ public class Raycast : MonoBehaviour
     {
         Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, 4))
+        if(Physics.Raycast(ray, out hit, 3))
         {
             //print(hit.transform.name);
             
