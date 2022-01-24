@@ -21,7 +21,7 @@ public class Raycast : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(ray, out hit, 4))
         {
-            print(hit.transform.name);
+            //print(hit.transform.name);
             
         }
         if(hit.transform.tag == "Item")
