@@ -7,8 +7,13 @@ public class TV_Functionality : MonoBehaviour
 {
     public GameObject changeChannelCanvas;
     public VideoPlayer videoPlayer;
-    public VideoClip channel_1;
-    public VideoClip channel_2;
+
+    public VideoClip[] channels;
+    private int currentChannel = 0;
+
+
+    //public VideoClip channel_1;
+    //public VideoClip channel_2;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -32,16 +37,23 @@ public class TV_Functionality : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (videoPlayer.clip = channel_1)
-                {
-                    videoPlayer.clip = channel_2;
-                }
-                else if (videoPlayer.clip = channel_2)
-                {
-                    videoPlayer.clip = channel_1;
-                }
+                ChangeChannel();
             }
-
         }
+    }
+
+    void ChangeChannel()
+    {
+        videoPlayer.clip = channels[currentChannel++];
+        //currentChannel++;
+
+        Debug.Log(currentChannel);
+
+        if(currentChannel >= channels.Length)
+        {
+            currentChannel = 0;
+        }
+
+        //videoPlayer.clip = channels[0];
     }
 }
