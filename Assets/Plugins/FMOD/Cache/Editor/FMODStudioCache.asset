@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-4375393165575338539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D_Ambience/Kidnap Foyer Hum
+  m_EditorClassIdentifier: 
+  Path: event:/2D_Ambience/Kidnap Foyer Hum
+  Guid:
+    Data1: 532360438
+    Data2: 1311668411
+    Data3: -1789442655
+    Data4: -779811937
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 96000
 --- !u!114 &-3902663626027648459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,13 +96,75 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -6884283236532942729}
   - {fileID: 4011973659617680759}
+  - {fileID: 8675008588905949178}
+  - {fileID: 5253344738175742200}
+  - {fileID: -4375393165575338539}
+  - {fileID: 8717056580082611069}
+  - {fileID: 1650277572823954442}
+  - {fileID: 4333419822374240253}
+  - {fileID: 4284209140282608401}
+  - {fileID: 1366475151623382623}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3984541840276053070}
   StringsBanks:
   - {fileID: 6443390369716741324}
-  cacheTime: 637810417898467110
+  cacheTime: 637810642746658839
   cacheVersion: 10
+--- !u!114 &1366475151623382623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D_Ambience/Camera_Beep
+  m_EditorClassIdentifier: 
+  Path: event:/3D_Ambience/Camera_Beep
+  Guid:
+    Data1: 473050814
+    Data2: 1254946703
+    Data3: -1061490761
+    Data4: -357158205
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5064
+--- !u!114 &1650277572823954442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D_Interaction/Flashlight_Toggle
+  m_EditorClassIdentifier: 
+  Path: event:/2D_Interaction/Flashlight_Toggle
+  Guid:
+    Data1: -208068040
+    Data2: 1222088761
+    Data3: -445775960
+    Data4: -1354134617
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 432
 --- !u!114 &3984541840276053070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,10 +180,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637810417898457140
+  lastModified: 637810642746638657
   FileSizes:
   - Name: Desktop
-    Value: 199456
+    Value: 3585984
   Exists: 1
 --- !u!114 &4011973659617680759
 MonoBehaviour:
@@ -124,6 +213,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4900
+--- !u!114 &4284209140282608401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D_Interaction/Keypad_Press_01
+  m_EditorClassIdentifier: 
+  Path: event:/2D_Interaction/Keypad_Press_01
+  Guid:
+    Data1: 1443212663
+    Data2: 1225976785
+    Data3: -1934359678
+    Data4: 1465471340
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &4333419822374240253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D_Ambience/Vent_Hum
+  m_EditorClassIdentifier: 
+  Path: event:/3D_Ambience/Vent_Hum
+  Guid:
+    Data1: 1578233739
+    Data2: 1168023688
+    Data3: 295773324
+    Data4: -124925729
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128328
+--- !u!114 &5253344738175742200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D_Ambience/Light Swing
+  m_EditorClassIdentifier: 
+  Path: event:/3D_Ambience/Light Swing
+  Guid:
+    Data1: 1435970544
+    Data2: 1265992223
+    Data3: -1177229942
+    Data4: 1370510267
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 4738
 --- !u!114 &6443390369716741324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,8 +309,62 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637810417898467110
+  lastModified: 637810642746658839
   FileSizes:
   - Name: Desktop
-    Value: 876
+    Value: 1304
   Exists: 1
+--- !u!114 &8675008588905949178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2D_Ambience/Kidnap Foyer Ambi
+  m_EditorClassIdentifier: 
+  Path: event:/2D_Ambience/Kidnap Foyer Ambi
+  Guid:
+    Data1: -1319633644
+    Data2: 1087904873
+    Data3: 1979558298
+    Data4: -1792393260
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 48048
+--- !u!114 &8717056580082611069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D_Ambience/Drips
+  m_EditorClassIdentifier: 
+  Path: event:/3D_Ambience/Drips
+  Guid:
+    Data1: -1869299710
+    Data2: 1238186759
+    Data3: -1725727580
+    Data4: -368791947
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
