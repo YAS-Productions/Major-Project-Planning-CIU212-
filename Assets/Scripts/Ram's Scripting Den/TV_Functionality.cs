@@ -11,9 +11,18 @@ public class TV_Functionality : MonoBehaviour
     public VideoClip[] channels;
     private int currentChannel = 0;
 
+    public GameObject puzzleComplete;
 
     //public VideoClip channel_1;
     //public VideoClip channel_2;
+
+    private void Update()
+    {
+        if(currentChannel == 4)
+        {
+            puzzleComplete.SetActive(true);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
