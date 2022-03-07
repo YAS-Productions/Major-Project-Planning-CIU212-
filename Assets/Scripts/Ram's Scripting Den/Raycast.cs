@@ -7,6 +7,7 @@ public class Raycast : MonoBehaviour
     Camera mainCam;
     
     public GameObject interactTut;
+    public float raycastDistance;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class Raycast : MonoBehaviour
     {
         Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, 3))
+        if(Physics.Raycast(ray, out hit, raycastDistance))
         {
             //print(hit.transform.name);
             
