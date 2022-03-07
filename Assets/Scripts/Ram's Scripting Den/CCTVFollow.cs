@@ -7,9 +7,11 @@ public class CCTVFollow : MonoBehaviour
     public Transform target;
     public float delay = 1;
     // Start is called before the first frame update
+    private GameObject player;
+    
     void Start()
     {
-      
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class CCTVFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var rotation = Quaternion.LookRotation(target.position - transform.position);
+        var rotation = Quaternion.LookRotation(player.transform.position - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * delay);
 
     }
