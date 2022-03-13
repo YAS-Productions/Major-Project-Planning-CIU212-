@@ -5,6 +5,7 @@ using UnityEngine;
 public class TheBank_LightsTrigger : MonoBehaviour
 {
     public GameObject[] lights;
+    public GameObject tutorial;
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +19,30 @@ public class TheBank_LightsTrigger : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            for (int i = 0; i < lights.Length; i++)
+            
+            tutorial.SetActive(true);
+            if(Input.GetKeyDown(KeyCode.E))
             {
-                lights[i].SetActive(false);
+                Debug.Log("KeyPressed");
+                for (int i = 0; i < lights.Length; i++)
+                {
+                    lights[i].SetActive(false);
+                }
+                tutorial.SetActive(false);
             }
+            
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            tutorial.SetActive(false);
         }
     }
 }
