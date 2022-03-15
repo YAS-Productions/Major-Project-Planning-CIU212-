@@ -44,14 +44,14 @@ public class Safe_Functionality : MonoBehaviour
              
         }
 
-        ////TESTING//
-        //if(Input.GetKeyDown(KeyCode.G))
-        //{
-        //    OpenSafe();
-        //}
-        
-       
-        
+        //TESTING//
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            OpenSafe();
+        }
+
+
+
         //ROTATING WHEELS/////////////////
         if (Input.GetKey(KeyCode.A))
         {
@@ -91,7 +91,8 @@ public class Safe_Functionality : MonoBehaviour
         //OPENING SAFE/////////////// (CHANGE THIS TO MAKE IT SMOOTH USING COROUTINE)
         void OpenSafe()
         {
-            safeDoor.transform.Rotate(new Vector3(0, -180, 0));
+            //safeDoor.transform.Rotate(new Vector3(0, -180, 0));
+            safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, Quaternion.Euler(0, 1200, 0), Time.deltaTime * 5);
         }
     }
 }
