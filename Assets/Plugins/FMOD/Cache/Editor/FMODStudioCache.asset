@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1527
+--- !u!114 &-8496577885910144054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/3D_Ambience/Corridor_Hum
+  m_EditorClassIdentifier: 
+  Path: event:/3D_Ambience/Corridor_Hum
+  Guid:
+    Data1: -930198176
+    Data2: 1250781431
+    Data3: -250431855
+    Data4: 452214622
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 65
+  MaxDistance: 95
+  Length: 12165
 --- !u!114 &-7148993224719088898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +240,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-75595742692680652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/3D_Corridor_Radio
+  m_EditorClassIdentifier: 
+  Path: event:/Music/3D_Corridor_Radio
+  Guid:
+    Data1: 317282043
+    Data2: 1150286479
+    Data3: -1893940050
+    Data4: -394133415
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.1
+  MaxDistance: 20
+  Length: 180000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,12 +304,14 @@ MonoBehaviour:
   - {fileID: -4385284896978826403}
   - {fileID: 9131876735765473769}
   - {fileID: 4172881583866548793}
+  - {fileID: -75595742692680652}
+  - {fileID: -8496577885910144054}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3984541840276053070}
   StringsBanks:
   - {fileID: 6443390369716741324}
-  cacheTime: 637826769959228301
+  cacheTime: 637833003365659415
   cacheVersion: 10
 --- !u!114 &1366475151623382623
 MonoBehaviour:
@@ -380,10 +436,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637826769959228301
+  lastModified: 637833003365639183
   FileSizes:
   - Name: Desktop
-    Value: 3585952
+    Value: 7645472
   Exists: 1
 --- !u!114 &4011973659617680759
 MonoBehaviour:
@@ -509,10 +565,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637823793950947539
+  lastModified: 637833003365069111
   FileSizes:
   - Name: Desktop
-    Value: 764896
+    Value: 765024
   Exists: 1
 --- !u!114 &5114562946714483033
 MonoBehaviour:
@@ -535,12 +591,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4482062273647649889}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1460
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 520
 --- !u!114 &5253344738175742200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,10 +639,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637823793951196873
+  lastModified: 637833003365659415
   FileSizes:
   - Name: Desktop
-    Value: 1780
+    Value: 1888
   Exists: 1
 --- !u!114 &8675008588905949178
 MonoBehaviour:

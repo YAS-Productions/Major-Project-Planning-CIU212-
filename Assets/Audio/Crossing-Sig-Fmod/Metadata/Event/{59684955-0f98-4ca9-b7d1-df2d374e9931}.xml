@@ -5,7 +5,7 @@
 			<value>Rug</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d8bd1335-5254-4ec5-a350-5cfa0fa6d390}</destination>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{160f0d99-54bf-4e97-8d12-738afd617ae2}" />
 	<object class="MultiSound" id="{b6e61c3c-edcb-470f-b80c-9c860040266b}">
 		<property name="length">
-			<value>1.46</value>
+			<value>0.52000000000000002</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{dd3ca243-a1d5-4de2-b880-4524f61abb0b}</destination>
@@ -107,6 +107,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{151f7442-bdf8-4b47-a45e-6321416f78aa}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -123,7 +126,7 @@
 	<object class="MixerBusEffectChain" id="{8279b88f-f5fd-4a35-baf6-3d9b38794df8}">
 		<relationship name="effects">
 			<destination>{0cc50fcd-9eb2-4c4d-a611-c9931819193e}</destination>
-			<destination>{c0ca940d-96e8-4393-926b-1dd8f4063359}</destination>
+			<destination>{59831650-7fd8-4989-b51f-17bf5d06744b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c68ab22f-f626-4c21-8832-7a617120f479}" />
@@ -190,6 +193,28 @@
 	</object>
 	<object class="MixerBusPanner" id="{d5a851da-0cf5-428c-86ce-006480e330f1}" />
 	<object class="MixerBusFader" id="{0cc50fcd-9eb2-4c4d-a611-c9931819193e}" />
-	<object class="SpatialiserEffect" id="{c0ca940d-96e8-4393-926b-1dd8f4063359}" />
+	<object class="SFXReverbEffect" id="{59831650-7fd8-4989-b51f-17bf5d06744b}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>2</value>
+		</property>
+		<property name="lateDelay">
+			<value>3</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>83</value>
+		</property>
+		<property name="highCut">
+			<value>6050</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>88</value>
+		</property>
+		<property name="wetLevel">
+			<value>-9.39999962</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f3c33fb4-b33f-4b1f-bec4-35e1ddeccbf9}" />
 </objects>
