@@ -78,9 +78,9 @@ namespace TS.Generics
 
             if (bTorchState) objTorch.SetActive(true);
 
-            if (aFlashlightOnOff && !bTorchState) aFlashlightOnOff.Play();
+            if (aFlashlightOnOff && !bTorchState) FMODUnity.RuntimeManager.PlayOneShot("event:/2D_Interaction/Flashlight_Toggle");
 
-            if (aFlashlightMovement) aFlashlightMovement.Play();
+            if (aFlashlightMovement) FMODUnity.RuntimeManager.PlayOneShot("event:/2D_Interaction/Flashlight_Switch");
 
 
             var currentPos = transform.position;
@@ -99,7 +99,7 @@ namespace TS.Generics
             if (!bTorchState) objTorch.SetActive(false);
             else objTorch.SetActive(true);
 
-            if (aFlashlightOnOff && bTorchState) aFlashlightOnOff.Play();
+            if (aFlashlightOnOff && bTorchState) FMODUnity.RuntimeManager.PlayOneShot("event:/2D_Interaction/Flashlight_Toggle");
 
 
              bActionAvailable = true;
