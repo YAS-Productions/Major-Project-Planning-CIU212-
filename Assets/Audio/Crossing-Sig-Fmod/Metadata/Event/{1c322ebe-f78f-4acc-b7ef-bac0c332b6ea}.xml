@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1622c5ee-a556-42dc-ae22-22e2d1630d8d}</destination>
+			<destination>{4d8dd5ed-421d-4798-9778-754e2a1ad1d6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{21b78ee7-9deb-4818-816f-e60eb959b734}</destination>
@@ -146,7 +146,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{c980f101-e1da-408d-bdc7-d6f2828eb74a}" />
 	<object class="MixerBusFader" id="{74d75943-c27e-4f50-b249-073c4a931cdd}" />
-	<object class="SpatialiserEffect" id="{822b519d-f0f6-4117-8b96-87180d45e155}" />
+	<object class="SpatialiserEffect" id="{822b519d-f0f6-4117-8b96-87180d45e155}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0.100000001</value>
+		</property>
+		<property name="maximumDistance">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{254f0af8-1cb1-4432-857d-a3c4e08f2e09}" />
 	<object class="SFXReverbEffect" id="{cfbe91c2-64fe-4ad1-8712-83311f733d53}">
 		<property name="decayTime">

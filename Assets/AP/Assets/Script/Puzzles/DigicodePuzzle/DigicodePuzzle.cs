@@ -41,13 +41,13 @@ public class DigicodePuzzle : MonoBehaviour {
     public int                          validationButtonJoystick = 4;
 
 
-    public AudioClip                    a_KeyPressed;
-    public float                        a_KeyPressedVolume = 1;
-    public AudioClip                    a_Reset;
-    public float                        a_ResetVolume = 1;
-    public AudioClip                    a_WrongCode;
-    public float                        a_WrongCodeVolume = 1;
-    private AudioSource                 a_Source;
+    //public AudioClip                    a_KeyPressed;
+    //public float                        a_KeyPressedVolume = 1;
+    //public AudioClip                    a_Reset;
+    //public float                        a_ResetVolume = 1;
+    //public AudioClip                    a_WrongCode;
+    //public float                        a_WrongCodeVolume = 1;
+    //private AudioSource                 a_Source;
 
 
     public bool                         VisualizeSprite = true;
@@ -93,7 +93,7 @@ public class DigicodePuzzle : MonoBehaviour {
         for (var i = 0; i < refPositionList.Count; i++)
             refPositionList[i] = positionList[i];
         
-        a_Source = GetComponent<AudioSource>();
+        //a_Source = GetComponent<AudioSource>();
         //----> END <----
     }
 
@@ -180,12 +180,7 @@ public class DigicodePuzzle : MonoBehaviour {
  
 //--> Reset Puzzle when button iconResetPuzzle in Canvas_PlayerInfos is pressed
     public void F_ResetPuzzle(){
-        if (a_Source && a_Reset)
-        {
-            a_Source.clip = a_Reset;
-            a_Source.volume = a_ResetVolume;
-            a_Source.Play();
-        }
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Digi-code Press");
         txt_result.text = "";
     }
 
@@ -320,15 +315,9 @@ public class DigicodePuzzle : MonoBehaviour {
     //--> Update the tile array list
     private void AddToResultScreen(Transform obj, int selectedObj)
     {
-        if(a_Source && a_KeyPressed){
-            a_Source.clip = a_KeyPressed;
-            a_Source.volume = a_KeyPressedVolume;
-            a_Source.Play();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Digi-code Press");
 
-        }
-
-
-        if(txt_result.text.Length < resultCode.Length){
+        if (txt_result.text.Length < resultCode.Length){
             int selectedTile = 0;
             for (var i = 0; i < tilesList.Count; i++)
             {
@@ -362,19 +351,12 @@ public class DigicodePuzzle : MonoBehaviour {
         while (!processEnded){
             if (!ingameGlobalManager.instance.b_Ingame_Pause){
                 yield return new WaitUntil(() => ap_Timer());
-                if (a_Source && a_WrongCode)
-                {
-                    a_Source.clip = a_WrongCode;
-                    a_Source.volume = a_WrongCodeVolume;
-                    a_Source.Play();
-                }
-
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Digi-code Wrong");
                 txt_result.text = "";
                 yield return new WaitUntil(() => ap_Timer());
                 txt_result.text = currentCode;
                 yield return new WaitUntil(() => ap_Timer());
                 txt_result.text = "";
-
                 processEnded = true;
             }
 

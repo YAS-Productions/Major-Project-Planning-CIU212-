@@ -5,10 +5,10 @@
 			<value>Kidnap Foyer Hum</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3c671897-8c6f-45b0-81d3-8027d3beb4f0}</destination>
+			<destination>{1622c5ee-a556-42dc-ae22-22e2d1630d8d}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{bfb0825d-a92e-4fd0-a81a-f5cc792c59bb}</destination>
@@ -101,7 +101,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7f5e162a-e43b-42f1-8257-60ce7015f56a}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -136,6 +136,7 @@
 	<object class="MixerBusEffectChain" id="{0b5d0c2d-8622-444a-a1d6-022383d514c8}">
 		<relationship name="effects">
 			<destination>{1ecd140d-5d55-4b19-aa79-7e5754eaa341}</destination>
+			<destination>{428e0639-d58a-4e1a-bd73-02ed31d37bb1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6948699b-9a1c-41e4-ad2a-d382cd27abdb}" />
@@ -165,6 +166,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{e13b46db-7a11-481a-af32-95a968160f78}" />
 	<object class="MixerBusFader" id="{1ecd140d-5d55-4b19-aa79-7e5754eaa341}" />
+	<object class="SpatialiserEffect" id="{428e0639-d58a-4e1a-bd73-02ed31d37bb1}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>3.79999995</value>
+		</property>
+		<property name="maximumDistance">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0ae00e56-63b0-4bc6-b02a-f98aaca71c2b}" />
 	<object class="SFXReverbEffect" id="{39d76012-1b7c-4a8a-8ba0-b04d29182b37}">
 		<property name="decayTime">
