@@ -1930,10 +1930,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1712241942}
-  - {fileID: 422149611345267669}
+  - {fileID: 1630959237}
   - {fileID: 1256249330}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &287151489
 PrefabInstance:
@@ -3197,7 +3197,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428215272}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04efe21760b1d294483a75fdc8481af0, type: 3}
   m_Name: 
@@ -4558,7 +4558,7 @@ Transform:
   - {fileID: 966372384}
   - {fileID: 1271750443}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651091342
 GameObject:
@@ -4603,7 +4603,7 @@ Transform:
   - {fileID: 1117985952}
   - {fileID: 4547743305632563786}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654925626
 GameObject:
@@ -5693,7 +5693,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &829749585
 GameObject:
@@ -6387,7 +6387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7, y: -15.999985}
+  m_AnchoredPosition: {x: 7, y: -16}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905608204
@@ -6907,7 +6907,7 @@ GameObject:
   - component: {fileID: 945718718}
   m_Layer: 0
   m_Name: Floor_3m (135)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6937,7 +6937,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.05, z: 3}
+  m_Size: {x: 3, y: 0.08749762, z: 3}
   m_Center: {x: -1.5, y: -0.025, z: 1.5}
 --- !u!23 &945718719
 MeshRenderer:
@@ -9056,7 +9056,7 @@ Transform:
   - {fileID: 493309428531309115}
   - {fileID: 794817613}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1229783155 stripped
 Transform:
@@ -10712,7 +10712,7 @@ GameObject:
   - component: {fileID: 1399147530}
   m_Layer: 0
   m_Name: Floor_3m (137)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10742,7 +10742,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.05, z: 3}
+  m_Size: {x: 3, y: 0.08749762, z: 3}
   m_Center: {x: -1.5, y: -0.025, z: 1.5}
 --- !u!23 &1399147531
 MeshRenderer:
@@ -11465,6 +11465,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1554005536}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1499690785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422149611345267669}
+  m_Layer: 0
+  m_Name: Recovery GameObject (422149611345267669)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &1507346266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260047588825346, guid: 81334d36968abe34d95f9f890c8f863a,
@@ -11485,7 +11501,7 @@ GameObject:
   - component: {fileID: 1525817422}
   m_Layer: 0
   m_Name: Floor_3m (136)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11515,7 +11531,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.05, z: 3}
+  m_Size: {x: 3, y: 0.08749762, z: 3}
   m_Center: {x: -1.5, y: -0.025, z: 1.5}
 --- !u!23 &1525817423
 MeshRenderer:
@@ -11664,6 +11680,10 @@ PrefabInstance:
     - target: {fileID: 1172688149816074, guid: 09d1b074067b24e47ad826d1fabd3c4d, type: 3}
       propertyPath: m_Name
       value: Directors Chair 06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172688149816074, guid: 09d1b074067b24e47ad826d1fabd3c4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4895625711927832, guid: 09d1b074067b24e47ad826d1fabd3c4d, type: 3}
       propertyPath: m_RootOrder
@@ -12184,6 +12204,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7597c2cd3cae24f638cb1092b8b15751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1630959236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630959237}
+  m_Layer: 0
+  m_Name: CCTV (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630959237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630959236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 279544975}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1639802176
 GameObject:
   m_ObjectHideFlags: 0
@@ -13404,12 +13454,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1715546641}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1715546645 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4137134901382264, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1715546641}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1715546646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1211071863590970, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
@@ -13841,7 +13885,7 @@ Transform:
   - {fileID: 1259001563}
   - {fileID: 74897437}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1817307873 stripped
 Transform:
@@ -13999,7 +14043,7 @@ Transform:
   - {fileID: 1832502202}
   - {fileID: 161807749}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1884037557
 PrefabInstance:
@@ -15552,7 +15596,7 @@ Transform:
   - {fileID: 921702975}
   - {fileID: 1186582267}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2139196017
 PrefabInstance:
@@ -15725,7 +15769,7 @@ GameObject:
   - component: {fileID: 65949715464361474}
   m_Layer: 0
   m_Name: Floor_3m (134)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16473,8 +16517,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.05, z: 3}
-  m_Center: {x: -1.5, y: -0.025, z: 1.5}
+  m_Size: {x: 3, y: 0.08749762, z: 3}
+  m_Center: {x: -1.5, y: -0.01718875, z: 1.5}
 --- !u!23 &404009834812536878
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16518,80 +16562,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &422149611345267667
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 279544975}
-    m_Modifications:
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -33.463917
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 49.516922
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 23.232645
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564590, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422149611431564591, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: m_Name
-      value: CCTV
-      objectReference: {fileID: 0}
-    - target: {fileID: 423037741432232971, guid: 52a77398713d5114585ee9e4b9b31c3f,
-        type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 1715546645}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52a77398713d5114585ee9e4b9b31c3f, type: 3}
 --- !u!4 &422149611345267668
 Transform:
   m_ObjectHideFlags: 0
@@ -16604,13 +16574,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &422149611345267669 stripped
+--- !u!4 &422149611345267669
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 422149611345267667}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499690785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &493309428531309115
 Transform:
   m_ObjectHideFlags: 0
@@ -16857,8 +16836,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 0.05, z: 3}
-  m_Center: {x: -1.5, y: -0.025, z: 1.5}
+  m_Size: {x: 3, y: 0.08192961, z: 3}
+  m_Center: {x: -1.5, y: -0.009035192, z: 1.5}
 --- !u!65 &7232970611822498058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16870,8 +16849,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6, y: 0.05, z: 6}
-  m_Center: {x: -3, y: -0.025, z: 3}
+  m_Size: {x: 6, y: 0.08749762, z: 6}
+  m_Center: {x: -3, y: -0.0062511936, z: 3}
 --- !u!65 &7232987733757803996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17063,7 +17042,7 @@ GameObject:
   - component: {fileID: 7232970611822498058}
   m_Layer: 0
   m_Name: Floor_6m (83)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17082,7 +17061,7 @@ GameObject:
   - component: {fileID: 7232970403493989912}
   m_Layer: 0
   m_Name: Floor_3m (133)
-  m_TagString: Untagged
+  m_TagString: Concrete_Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
