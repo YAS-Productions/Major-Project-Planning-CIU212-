@@ -17,6 +17,8 @@ public class Safe_Functionality : MonoBehaviour
     public GameObject safeDoor;
     focusCamEffect focusCamEffect;
 
+    bool safeOpened;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,19 @@ public class Safe_Functionality : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
+            if (wheelIndex <= 0)
+            {
+                wheelIndex = 2;
+            }
+            else
+            {
+                wheelIndex -= 1;
+            }
+
+
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
             if (wheelIndex >= wheels.Length - 1)
             {
                 wheelIndex = 0;
@@ -41,11 +56,7 @@ public class Safe_Functionality : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            wheelIndex -= 1;
 
-        }
 
         //TESTING//
         //if (Input.GetKeyDown(KeyCode.G))
@@ -64,6 +75,8 @@ public class Safe_Functionality : MonoBehaviour
         {
             wheels[wheelIndex].transform.Rotate(new Vector3(0, 0, -30f) * Time.deltaTime);
         }
+
+
 
 
         //SOLUTION//////////////////////
@@ -89,15 +102,20 @@ public class Safe_Functionality : MonoBehaviour
         {
             Debug.Log("Safe Unlocked");
             OpenSafe();
+            
         }
+
+        
 
         //OPENING SAFE/////////////// (CHANGE THIS TO MAKE IT SMOOTH USING COROUTINE)
         void OpenSafe()
         {
+            
             //safeDoor.transform.Rotate(new Vector3(0, -180, 0));
             //safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, Quaternion.Euler(0, 1200, 0), Time.deltaTime * 5); /// WORKS BUT ITS NOT SMOOTH
-            StartCoroutine(RotateSafeDoor(200));
-            focusCamEffect.StartCoroutine("I_MoveCameraToDefaultPosition");
+            StartCoroutine(RotateSafeDoor(180));
+            //safeOpened = true;
+            /* focusCamEffect.StartCoroutine("I_MoveCameraToDefaultPosition");*/ //DOESNT WORK
         }
 
 
@@ -105,10 +123,12 @@ public class Safe_Functionality : MonoBehaviour
         IEnumerator RotateSafeDoor(float rotationAmount)
         {
             Quaternion finalRotation = Quaternion.Euler(0, rotationAmount, 0) * safeDoor.transform.rotation;
-            while (safeDoor.transform.rotation != finalRotation)
+            while (safeDoor.transform.rotation != finalRotation/* && safeOpened == false*/)
             {
                 safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, finalRotation, Time.deltaTime);
                 yield return 0;
+               
+
             }
 
         }
