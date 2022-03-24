@@ -18175,6 +18175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2121877310}
+  - component: {fileID: 2121877311}
   m_Layer: 0
   m_Name: Door_Pivot
   m_TagString: Untagged
@@ -18197,6 +18198,25 @@ Transform:
   m_Father: {fileID: 6191694313363057564}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2121877311
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121877309}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b39f951ef1bb0424ca55efa7ef1418b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2124443995
 GameObject:
   m_ObjectHideFlags: 0
@@ -109771,6 +109791,7 @@ MonoBehaviour:
   midWheel: 0
   smallWheel: 0
   safeDoor: {fileID: 2121877309}
+  safe: {fileID: 2121877311}
 --- !u!4 &7642395077711397054
 Transform:
   m_ObjectHideFlags: 0

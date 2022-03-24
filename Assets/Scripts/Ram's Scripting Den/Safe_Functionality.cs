@@ -19,12 +19,14 @@ public class Safe_Functionality : MonoBehaviour
 
     bool safeOpened;
 
+    public Animator safe;
+
 
     // Start is called before the first frame update
     void Start()
     {
         wheelIndex = wheels.Length;
-
+        safe.GetComponent<Animator>();
 
     }
 
@@ -61,7 +63,7 @@ public class Safe_Functionality : MonoBehaviour
         //TESTING//
         //if (Input.GetKeyDown(KeyCode.G))
         //{
-        //    OpenSafe();
+        //    StartCoroutine(RotateSafeDoor(-110));
         //}
 
 
@@ -103,6 +105,7 @@ public class Safe_Functionality : MonoBehaviour
             Debug.Log("Safe Unlocked");
             OpenSafe();
             
+            
         }
 
         
@@ -113,7 +116,8 @@ public class Safe_Functionality : MonoBehaviour
             
             //safeDoor.transform.Rotate(new Vector3(0, -180, 0));
             //safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, Quaternion.Euler(0, 1200, 0), Time.deltaTime * 5); /// WORKS BUT ITS NOT SMOOTH
-            StartCoroutine(RotateSafeDoor(180));
+            //StartCoroutine(RotateSafeDoor(-110));
+            safe.SetBool("isOpened", true);
             //safeOpened = true;
             /* focusCamEffect.StartCoroutine("I_MoveCameraToDefaultPosition");*/ //DOESNT WORK
         }
@@ -127,10 +131,12 @@ public class Safe_Functionality : MonoBehaviour
             {
                 safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, finalRotation, Time.deltaTime);
                 yield return 0;
-               
 
+                
             }
-
+           
         }
+
+       
     }
 }
