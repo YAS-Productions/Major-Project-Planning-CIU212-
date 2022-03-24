@@ -4962,6 +4962,7 @@ MonoBehaviour:
   - {fileID: 1608808283}
   lever: {fileID: 979827515}
   interactTut: {fileID: 4943242248424204729}
+  vaultDoor: {fileID: 555785464285344756}
 --- !u!65 &578677470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8604,10 +8605,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3895391661996971833}
     m_Modifications:
+    - target: {fileID: 699122466758373273, guid: c62c44a12b3bd0b478d4da7791c5e14a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 700086023128138875, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_Name
       value: LampTechnical_ON (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 700086023128138875, guid: c62c44a12b3bd0b478d4da7791c5e14a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
@@ -12332,6 +12343,7 @@ MonoBehaviour:
   - {fileID: 3893426310066693508}
   - {fileID: 3895391662183214644}
   - {fileID: 3893426309752959709}
+  - {fileID: 3893426309750107383}
   tutorial: {fileID: 4943242248424204729}
 --- !u!65 &1396764230
 BoxCollider:
@@ -20084,7 +20096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555785464285344756}
   m_LocalRotation: {x: -0, y: -0.849286, z: -0, w: 0.52793306}
-  m_LocalPosition: {x: -0.04, y: 0, z: -0.18}
+  m_LocalPosition: {x: -0.06, y: 0, z: -0.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4458702747582906023}
@@ -21412,7 +21424,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &581710949713686648
 Transform:
@@ -41145,7 +41157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 868160e4d18104cdb8530d6620124453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SeeInspector: 0
+  SeeInspector: 1
   moreOptions: 0
   methodsList:
   - obj: {fileID: 1562176531854112244}
@@ -99009,7 +99021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5546228720591632995
 Transform:
@@ -101457,7 +101469,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &6231235596030769786
 MeshFilter:
@@ -122279,7 +122291,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8265823633122481801
 Transform:
@@ -125337,7 +125349,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &8887493732574905087
 GameObject:
