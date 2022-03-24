@@ -10,11 +10,21 @@ public class Enable_Monitor : MonoBehaviour
     public Animator lever;
     public GameObject interactTut;
 
+    public GameObject vaultDoor;
+
     // Start is called before the first frame update
     void Start()
     {
         lever.GetComponent<Animator>();
     }
+
+    //private void Update()
+    //{
+    //    if(Input.GetKeyDown(KeyCode.O))
+    //    {
+            
+    //    }
+    //}
 
     private void OnTriggerStay(Collider other)
     {
@@ -31,6 +41,7 @@ public class Enable_Monitor : MonoBehaviour
                 }
 
                 lever.SetBool("isActivated", true);
+                TriggerVaultDoor();
             }
         }
     }
@@ -51,6 +62,9 @@ public class Enable_Monitor : MonoBehaviour
         }
     }
 
-
+    void TriggerVaultDoor()
+    {
+        vaultDoor.transform.Rotate(0, 100, 0);
+    }
 
 }
