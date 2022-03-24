@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class actionsWhenPuzzleIsSolved : MonoBehaviour {
+    
     public bool                     SeeInspector = false;
     public bool                     onlyFocusMode = false;
-
+    
     public GameObject               playerCamera;
     public GameObject               feedbackCamera;
     private GameObject              iconResetPuzzle;
@@ -17,7 +18,7 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
 
     public objTranslateRotate       objTranslationOrRotation;
 
-
+    
     [System.Serializable]
     public class ListOfEvent
     {
@@ -28,20 +29,20 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
         public AnimationCurve       animCurve = new AnimationCurve();
         public Vector3              objScale = new Vector3(0,0,0);
     }
-
+  
     public List<ListOfEvent>        listOfEvent = new List<ListOfEvent>() { new ListOfEvent() };    // List of Event when the puzzle is solved
-
+    
     public List<EditorMethodsList.MethodsList> methodsList                                          // Create a list of Custom Methods that could be edit in the Inspector
         = new List<EditorMethodsList.MethodsList>();
-
+    
     public CallMethods              callMethods;                                                    // Access script taht allow to call public function in this script.
-
+   
     public float                    popupSpeed = 1;
 
     //public AudioClip                a_puzzleSolved;
     //public float                    a_puzzleSolvedVolume = .25f;
     //private AudioSource             a_Source;
-
+   
     public GameObject               objectActivatedWhenPuzzleIsSolved;                              // If the gameobject is activated, the puzzle is solved
 
 

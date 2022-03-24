@@ -878,8 +878,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4057840315299490}
   - component: {fileID: 114015078222787398}
-  - component: {fileID: 114975616492059486}
   - component: {fileID: 114243766024757594}
+  - component: {fileID: 114975616492059486}
   - component: {fileID: 114553824345652768}
   - component: {fileID: 114877362483951004}
   - component: {fileID: 82487368211860798}
@@ -979,12 +979,6 @@ MonoBehaviour:
   _conditionsToAccessThePuzzle: {fileID: 0}
   _actionsWhenPuzzleIsSolved: {fileID: 0}
   validationButtonJoystick: 4
-  a_KeyPressed: {fileID: 8300000, guid: 16c58450784714f99addc64614e8aaba, type: 3}
-  a_KeyPressedVolume: 0.235
-  a_Reset: {fileID: 8300000, guid: 1c5a60669febe4ec991635c6161c4be0, type: 3}
-  a_ResetVolume: 0.268
-  a_WrongCode: {fileID: 8300000, guid: 231af7cde58bf42cd97469e1a906074e, type: 3}
-  a_WrongCodeVolume: 0.268
   VisualizeSprite: 1
   txt_result: {fileID: 114985099012822874}
   iconPosition: {fileID: 1347410966961194}
@@ -997,31 +991,6 @@ MonoBehaviour:
   - ID: 0
     uniqueID: 0
   targetTime: 0.1
---- !u!114 &114975616492059486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162231747001128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61e4a8d785efa4e949be82e793fd3824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SeeInspector: 0
-  onlyFocusMode: 0
-  b_PuzzleIsActivated: 0
-  objClueBox: {fileID: 0}
-  b_OnlyFocus: 0
-  b_Generic: 0
-  methodsList: []
-  inventoryIDList: []
-  b_feedbackActivated: 0
-  feedbackIDList:
-  - ID: 4
-    uniqueID: 12
-  b_ActivateDoubleTapIcon: 0
 --- !u!114 &114243766024757594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,9 +1051,32 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
-  a_puzzleSolved: {fileID: 8300000, guid: 0ef53d3e0b8a24672bb9900323e9e4d7, type: 3}
-  a_puzzleSolvedVolume: 0.4
   objectActivatedWhenPuzzleIsSolved: {fileID: 1438318096293088}
+--- !u!114 &114975616492059486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162231747001128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e4a8d785efa4e949be82e793fd3824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeeInspector: 0
+  onlyFocusMode: 0
+  b_PuzzleIsActivated: 0
+  objClueBox: {fileID: 0}
+  b_OnlyFocus: 0
+  b_Generic: 0
+  methodsList: []
+  inventoryIDList: []
+  b_feedbackActivated: 0
+  feedbackIDList:
+  - ID: 4
+    uniqueID: 12
+  b_ActivateDoubleTapIcon: 0
 --- !u!114 &114553824345652768
 MonoBehaviour:
   m_ObjectHideFlags: 0
