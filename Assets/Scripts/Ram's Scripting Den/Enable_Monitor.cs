@@ -18,13 +18,13 @@ public class Enable_Monitor : MonoBehaviour
         lever.GetComponent<Animator>();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            TriggerVaultDoor();
-        }
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.O))
+    //    {
+    //        TriggerVaultDoor();
+    //    }
+    //}
 
     private void OnTriggerStay(Collider other)
     {
@@ -65,6 +65,10 @@ public class Enable_Monitor : MonoBehaviour
     void TriggerVaultDoor()
     {
         vaultDoor.transform.Rotate(0, 90, 0);
+        Destroy(interactTut);
+        Destroy(this);
+        
+
     }
 
 }
