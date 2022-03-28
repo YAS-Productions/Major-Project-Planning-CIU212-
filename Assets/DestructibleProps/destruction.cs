@@ -38,6 +38,8 @@ public class destruction : MonoBehaviour
         }
     }
 
+
+   
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.GetComponent<BulletsDamage>())
