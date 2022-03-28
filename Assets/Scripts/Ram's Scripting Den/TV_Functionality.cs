@@ -9,6 +9,7 @@ public class TV_Functionality : MonoBehaviour
     public VideoPlayer videoPlayer;
 
     public VideoClip[] channels;
+    [SerializeField]
     private int currentChannel = 0;
 
     public GameObject puzzleComplete;
@@ -16,9 +17,17 @@ public class TV_Functionality : MonoBehaviour
     //public VideoClip channel_1;
     //public VideoClip channel_2;
 
+    private void Start()
+    {
+        
+    }
+
+
     private void Update()
     {
-        if(currentChannel == 4)
+        videoPlayer.clip = channels[currentChannel];
+
+        if (currentChannel == 4)
         {
             puzzleComplete.SetActive(true);
         }
@@ -53,7 +62,8 @@ public class TV_Functionality : MonoBehaviour
 
     void ChangeChannel()
     {
-        videoPlayer.clip = channels[currentChannel++];
+        
+        currentChannel++;
         //currentChannel++;
 
         Debug.Log(currentChannel);
