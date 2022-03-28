@@ -21,6 +21,8 @@ public class Safe_Functionality : MonoBehaviour
 
     public Animator safe;
 
+    public GameObject safeFocus;
+
 
     // Start is called before the first frame update
     void Start()
@@ -118,6 +120,7 @@ public class Safe_Functionality : MonoBehaviour
             //safeDoor.transform.rotation = Quaternion.Lerp(safeDoor.transform.rotation, Quaternion.Euler(0, 1200, 0), Time.deltaTime * 5); /// WORKS BUT ITS NOT SMOOTH
             //StartCoroutine(RotateSafeDoor(-110));
             safe.SetBool("isOpened", true);
+            Destroy(safeFocus);
             //safeOpened = true;
             /* focusCamEffect.StartCoroutine("I_MoveCameraToDefaultPosition");*/ //DOESNT WORK
         }
