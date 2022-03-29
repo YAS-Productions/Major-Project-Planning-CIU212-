@@ -11,11 +11,15 @@ public class Enable_Monitor : MonoBehaviour
     public GameObject interactTut;
 
     public GameObject vaultDoor;
+    public GameObject lightsTrigger;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         lever.GetComponent<Animator>();
+       
+        
     }
 
     //private void Update()
@@ -42,6 +46,7 @@ public class Enable_Monitor : MonoBehaviour
 
                 lever.SetBool("isActivated", true);
                 TriggerVaultDoor();
+                lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
             }
         }
     }
@@ -66,7 +71,8 @@ public class Enable_Monitor : MonoBehaviour
     {
         vaultDoor.transform.Rotate(0, 90, 0);
         Destroy(interactTut);
-        Destroy(this);
+        
+        //Destroy(this);
         
 
     }
