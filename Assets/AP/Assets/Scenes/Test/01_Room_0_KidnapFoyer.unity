@@ -3111,7 +3111,7 @@ GameObject:
   - component: {fileID: 468851551}
   - component: {fileID: 468851553}
   m_Layer: 0
-  m_Name: 03_The_Corridor
+  m_Name: 02_The_Corridor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5879,7 +5879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7, y: -16}
+  m_AnchoredPosition: {x: 7, y: -15.9999695}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905608204
@@ -8229,7 +8229,7 @@ GameObject:
   - component: {fileID: 1126489051}
   - component: {fileID: 1126489050}
   m_Layer: 0
-  m_Name: 02_Room_1_Detective_Office
+  m_Name: 03_Room_1_Detective_Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9582,12 +9582,12 @@ GameObject:
   - component: {fileID: 1300098840}
   - component: {fileID: 1300098842}
   m_Layer: 0
-  m_Name: 07_Room_2_Suburban_House
+  m_Name: 04_Room_2_Suburban_Warehouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1300098840
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9599,8 +9599,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.750621, y: 14.051026, z: 15.4679365}
-  m_Center: {x: 2.7962708, y: -3.1597238, z: -3.0515924}
+  m_Size: {x: 28.33917, y: 8.6197815, z: 20.442322}
+  m_Center: {x: 8.509887, y: -0.44410133, z: -7.437668}
 --- !u!4 &1300098841
 Transform:
   m_ObjectHideFlags: 0
@@ -12881,6 +12881,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -932535282525049812, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
+        type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -932535282525049812, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -932535282525049812, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
+        type: 3}
+      propertyPath: m_Cameras.Array.data[0]
+      value: 
+      objectReference: {fileID: 107671978}
+    - target: {fileID: -932535282525049812, guid: 868b2417d8fbc4dc9818e0205bfa13e4,
+        type: 3}
+      propertyPath: m_Cameras.Array.data[1]
+      value: 
+      objectReference: {fileID: 937895895}
     - target: {fileID: 428215278, guid: 868b2417d8fbc4dc9818e0205bfa13e4, type: 3}
       propertyPath: interactTut
       value: 
@@ -14641,7 +14661,7 @@ GameObject:
   - component: {fileID: 2040301107}
   - component: {fileID: 2040301108}
   m_Layer: 0
-  m_Name: 07_Room_3_The_Bank
+  m_Name: 05_Room_3_The_Bank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
