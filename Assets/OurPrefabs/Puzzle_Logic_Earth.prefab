@@ -6483,9 +6483,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5072754682099583862}
-  m_LocalRotation: {x: 0.51555115, y: 0.48394936, z: -0.48394936, w: 0.51555115}
+  m_LocalRotation: {x: 0.5155516, y: 0.48394892, z: -0.48394892, w: 0.5155516}
   m_LocalPosition: {x: 17.033, y: 1.012, z: 9.901}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.4999999, y: 1.4999999, z: 1.5}
   m_Children:
   - {fileID: 5075335393275770392}
   - {fileID: 5075716932492505996}
@@ -6627,7 +6627,13 @@ MonoBehaviour:
   b_OnlyFocus: 0
   b_Generic: 0
   methodsList: []
-  inventoryIDList: []
+  inventoryIDList:
+  - ID: 17
+    uniqueID: 20
+  - ID: 18
+    uniqueID: 21
+  - ID: 19
+    uniqueID: 22
   b_feedbackActivated: 0
   feedbackIDList:
   - ID: 4
@@ -6684,17 +6690,15 @@ MonoBehaviour:
   methodsList:
   - obj: {fileID: 0}
     scriptRef: {fileID: 0}
-    indexScript: 0
+    indexScript: 1
     indexMethod: 0
-    methodInfoName: 
+    methodInfoName: GameObject_SetActive
     intValue: 0
     floatValue: 0
     stringValue: 
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
-  a_puzzleSolved: {fileID: 8300000, guid: 0ef53d3e0b8a24672bb9900323e9e4d7, type: 3}
-  a_puzzleSolvedVolume: 0.4
   objectActivatedWhenPuzzleIsSolved: {fileID: 5072092819894405770}
 --- !u!114 &5185910161680889552
 MonoBehaviour:

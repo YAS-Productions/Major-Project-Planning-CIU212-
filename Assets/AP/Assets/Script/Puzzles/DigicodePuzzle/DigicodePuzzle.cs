@@ -175,16 +175,17 @@ public class DigicodePuzzle : MonoBehaviour {
         }
     }
 
-//------> BEGIN <------ Next 6 methods are always needed in a puzzle script 
+    //------> BEGIN <------ Next 6 methods are always needed in a puzzle script 
 
- 
-//--> Reset Puzzle when button iconResetPuzzle in Canvas_PlayerInfos is pressed
-    public void F_ResetPuzzle(){
+
+    //--> Reset Puzzle when button iconResetPuzzle in Canvas_PlayerInfos is pressed
+    public void F_ResetPuzzle()
+    {
         FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Digi-code Press");
         txt_result.text = "";
     }
 
-//--> Return if the puzzle is Solved
+    //--> Return if the puzzle is Solved
     public bool returnIfPuzzleIsSolved(){
         return b_PuzzleSolved;
     }
