@@ -16,6 +16,7 @@ public class TV_Functionality : MonoBehaviour
 
     //public VideoClip channel_1;
     //public VideoClip channel_2;
+    private bool playJingle = false;
 
     private void Start()
     {
@@ -30,6 +31,12 @@ public class TV_Functionality : MonoBehaviour
         if (currentChannel == 4)
         {
             puzzleComplete.SetActive(true);
+            if(playJingle == false)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Success Jingle");
+                playJingle = true;
+            }
+            
         }
     }
 
