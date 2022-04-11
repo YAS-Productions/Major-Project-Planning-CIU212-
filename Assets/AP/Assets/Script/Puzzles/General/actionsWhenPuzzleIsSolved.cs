@@ -39,10 +39,12 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
    
     public float                    popupSpeed = 1;
 
-    //public AudioClip                a_puzzleSolved;
-    //public float                    a_puzzleSolvedVolume = .25f;
-    //private AudioSource             a_Source;
-   
+
+    //TO MAKE THE INSPECTOR NOT FUCKED UNCOMMENT THESE//
+    //public AudioClip a_puzzleSolved;
+    //public float a_puzzleSolvedVolume = .25f;
+    //private AudioSource a_Source;
+
     public GameObject               objectActivatedWhenPuzzleIsSolved;                              // If the gameobject is activated, the puzzle is solved
 
 
@@ -75,6 +77,7 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
     {
 
         FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Success Jingle");
+        //TO MAKE THE INSPECTOR NOT FUCKED UNCOMMENT THESE//
         //if (a_Source && a_puzzleSolved)
         //{
         //    a_Source.clip = a_puzzleSolved;
