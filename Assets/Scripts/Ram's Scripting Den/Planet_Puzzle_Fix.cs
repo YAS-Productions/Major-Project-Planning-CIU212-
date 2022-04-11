@@ -7,6 +7,12 @@ public class Planet_Puzzle_Fix : MonoBehaviour
     public MeshRenderer mercury;
     public MeshRenderer mercuryToy;
 
+    public MeshRenderer venus;
+    public MeshRenderer venusToy;
+
+    public MeshRenderer pluto;
+    public MeshRenderer plutoToy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +25,16 @@ public class Planet_Puzzle_Fix : MonoBehaviour
         if(mercuryToy.GetComponent<MeshRenderer>().enabled == false)
         {
             mercury.GetComponent<MeshRenderer>().enabled = true;
+        }
+
+        if (venusToy.GetComponent<MeshRenderer>().enabled == false)
+        {
+            venus.GetComponent<MeshRenderer>().enabled = true;
+        }
+
+        if (plutoToy.GetComponent<MeshRenderer>().enabled == false)
+        {
+            pluto.GetComponent<MeshRenderer>().enabled = true;
         }
     }
 }
