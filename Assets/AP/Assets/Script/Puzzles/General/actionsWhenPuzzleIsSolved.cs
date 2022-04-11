@@ -41,9 +41,9 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
 
 
     //TO MAKE THE INSPECTOR NOT FUCKED UNCOMMENT THESE//
-    //public AudioClip a_puzzleSolved;
-    //public float a_puzzleSolvedVolume = .25f;
-    //private AudioSource a_Source;
+    public AudioClip a_puzzleSolved;
+    public float a_puzzleSolvedVolume = .25f;
+    private AudioSource a_Source;
 
     public GameObject               objectActivatedWhenPuzzleIsSolved;                              // If the gameobject is activated, the puzzle is solved
 
@@ -76,14 +76,14 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
     private IEnumerator I_PuzzleSolved()
     {
 
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Success Jingle");
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Feedback/Success Jingle");
         //TO MAKE THE INSPECTOR NOT FUCKED UNCOMMENT THESE//
-        //if (a_Source && a_puzzleSolved)
-        //{
-        //    a_Source.clip = a_puzzleSolved;
-        //    a_Source.volume = a_puzzleSolvedVolume;
-        //    a_Source.Play();
-        //}
+        if (a_Source && a_puzzleSolved)
+        {
+            a_Source.clip = a_puzzleSolved;
+            a_Source.volume = a_puzzleSolvedVolume;
+            a_Source.Play();
+        }
 
 
         // Activate this object when the puzzle is solved. This object can't use to know if a door, drawer or wardrobe can't be open 
