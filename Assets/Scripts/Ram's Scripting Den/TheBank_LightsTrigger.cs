@@ -25,7 +25,7 @@ public class TheBank_LightsTrigger : MonoBehaviour
         {
 
             tutorial.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 TurnOffLights();
                 tutorial.SetActive(false);
