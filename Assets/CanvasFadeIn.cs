@@ -7,6 +7,7 @@ public class CanvasFadeIn : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
     public GameObject player;
+    public Camera cutsceneCam;
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +67,7 @@ public class CanvasFadeIn : MonoBehaviour
 
     public void StartPlayer()
     {
-        player.SetActive(true);
+        player.GetComponent<characterMovement>().enabled = true;
+        cutsceneCam.depth = 0;
     }
 }
