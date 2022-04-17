@@ -1379,7 +1379,7 @@ PrefabInstance:
     - target: {fileID: 5561427103756394060, guid: 9c91395364bf7e6419c1faadb01aad4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5561427104289787399, guid: 9c91395364bf7e6419c1faadb01aad4a,
         type: 3}
@@ -6504,6 +6504,8 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
+  a_puzzleSolved: {fileID: 0}
+  a_puzzleSolvedVolume: 0.25
   objectActivatedWhenPuzzleIsSolved: {fileID: 7741579834056897776}
 --- !u!114 &7710009799301737806
 MonoBehaviour:
@@ -6630,6 +6632,12 @@ MonoBehaviour:
   _conditionsToAccessThePuzzle: {fileID: 0}
   _actionsWhenPuzzleIsSolved: {fileID: 0}
   validationButtonJoystick: 4
+  a_KeyPressed: {fileID: 0}
+  a_KeyPressedVolume: 1
+  a_Reset: {fileID: 0}
+  a_ResetVolume: 1
+  a_WrongCode: {fileID: 0}
+  a_WrongCodeVolume: 1
   VisualizeSprite: 1
   txt_result: {fileID: 7706225922598420298}
   iconPosition: {fileID: 7741204548759368762}
