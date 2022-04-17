@@ -24,11 +24,11 @@ public class TheBank_LightsTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
 
-            tutorial.SetActive(true);
+            //tutorial.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 TurnOffLights();
-                tutorial.SetActive(false);
+                //tutorial.SetActive(false);
             }
 
         }
