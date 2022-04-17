@@ -41,13 +41,13 @@ public class DigicodePuzzle : MonoBehaviour {
     public int                          validationButtonJoystick = 4;
 
 
-    //public AudioClip                    a_KeyPressed;
-    //public float                        a_KeyPressedVolume = 1;
-    //public AudioClip                    a_Reset;
-    //public float                        a_ResetVolume = 1;
-    //public AudioClip                    a_WrongCode;
-    //public float                        a_WrongCodeVolume = 1;
-    //private AudioSource                 a_Source;
+    public AudioClip a_KeyPressed;
+    public float a_KeyPressedVolume = 1;
+    public AudioClip a_Reset;
+    public float a_ResetVolume = 1;
+    public AudioClip a_WrongCode;
+    public float a_WrongCodeVolume = 1;
+    private AudioSource a_Source;
 
 
     public bool                         VisualizeSprite = true;
