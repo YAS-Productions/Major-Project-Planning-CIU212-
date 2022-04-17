@@ -17,6 +17,7 @@ public class LightFlickerSpark : MonoBehaviour
     [SerializeField]
     private float m_flickerDuration;
     private AudioSource m_audioSource;
+    public float intensity;
 
     private Color m_originalEmmisionColor;
     private float currentTimer;
@@ -42,7 +43,7 @@ public class LightFlickerSpark : MonoBehaviour
             else
             {
                 m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
-                m_light.intensity = 1.25f;
+                m_light.intensity = intensity;
                 m_isLightOn = true;
                 m_isFlickering = false;
                 currentTimer = Random.Range(4f, 7f);
@@ -79,7 +80,7 @@ public class LightFlickerSpark : MonoBehaviour
                 {
                     m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
                     currentTimer = Random.Range(0.005f, 0.12f);
-                    m_light.intensity = 1.25f;
+                    m_light.intensity = intensity;
                     m_isLightOn = true;
                 }
             }

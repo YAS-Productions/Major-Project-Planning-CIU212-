@@ -7384,6 +7384,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 532320982}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &537992832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859014743025054, guid: b86cb414afa06064c9ab74f2ddc8bd1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1692981631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &537992833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537992832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868160e4d18104cdb8530d6620124453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeeInspector: 0
+  moreOptions: 0
+  methodsList:
+  - obj: {fileID: 537992832}
+    scriptRef: {fileID: 0}
+    indexScript: 3
+    indexMethod: 0
+    methodInfoName: ReturnSaveData
+    intValue: 0
+    floatValue: 0
+    stringValue: 
+    objValue: {fileID: 0}
+    audioValue: {fileID: 0}
+  b_isObjectActivated: 1
+  isObjectActivatedIndex: 1
+--- !u!114 &537992834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537992832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9737afc3720ba4e41b9002302df914c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SaveVoiceOverProperties: 1
+  firstTimeEnabledObject: 1
+  methodsList: []
+  methodsListObjDeactivated: []
+  methodsListSaveExtend: []
+  methodsListSaveExtendLoadProcess: []
+--- !u!114 &537992835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537992832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cfc05031d6df46b9adff370d6fa8d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeeInspector: 0
+  managerID: 30
+  uniqueID: 33
+  textList: {fileID: 11400000, guid: a61ec42cb7025d543be5640f9f2c7fe3, type: 2}
+  editorType: 1
+  t_Language: 0
+  t_ID: 0
+  language_AutoUpdate: 1
+  b_UIButtonShowTitle: 0
+  b_UpdateID: 0
+--- !u!65 &537992836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537992832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14364868, y: 5.409879e-10, z: 0.097861335}
+  m_Center: {x: 0, y: 0.000000059604645, z: 0}
 --- !u!1001 &542069479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8262,6 +8348,8 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
+  a_puzzleSolved: {fileID: 0}
+  a_puzzleSolvedVolume: 0.25
   objectActivatedWhenPuzzleIsSolved: {fileID: 0}
 --- !u!114 &616894226
 MonoBehaviour:
@@ -9550,6 +9638,8 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
+  a_puzzleSolved: {fileID: 0}
+  a_puzzleSolvedVolume: 0.25
   objectActivatedWhenPuzzleIsSolved: {fileID: 0}
 --- !u!114 &712907470
 MonoBehaviour:
@@ -13671,6 +13761,7 @@ MonoBehaviour:
   m_normalFliclerTime: 0.2
   m_isFlickering: 1
   m_flickerDuration: 5
+  intensity: 0.33
 --- !u!1 &997766425
 GameObject:
   m_ObjectHideFlags: 0
@@ -23390,7 +23481,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1859014743025054, guid: b86cb414afa06064c9ab74f2ddc8bd1b, type: 3}
       propertyPath: m_Name
-      value: Paper_Note_01 (2)
+      value: 'CLUE: Memo_Security_Measures'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859014743025054, guid: b86cb414afa06064c9ab74f2ddc8bd1b, type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     - target: {fileID: 4070269962597616, guid: b86cb414afa06064c9ab74f2ddc8bd1b, type: 3}
       propertyPath: m_RootOrder
@@ -24340,7 +24435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660975167511702, guid: 868b2417d8fbc4dc9818e0205bfa13e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.281789
+      value: -6.51
       objectReference: {fileID: 0}
     - target: {fileID: 4660975167511702, guid: 868b2417d8fbc4dc9818e0205bfa13e4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24348,7 +24443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660975167511702, guid: 868b2417d8fbc4dc9818e0205bfa13e4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.285439
+      value: -13.29
       objectReference: {fileID: 0}
     - target: {fileID: 4660975167511702, guid: 868b2417d8fbc4dc9818e0205bfa13e4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25789,6 +25884,7 @@ MonoBehaviour:
   m_normalFliclerTime: 0.5
   m_isFlickering: 0
   m_flickerDuration: 2
+  intensity: 0.9
 --- !u!1001 &1829522500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27626,6 +27722,16 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.84235257
       objectReference: {fileID: 0}
+    - target: {fileID: 590521712345767511, guid: c62c44a12b3bd0b478d4da7791c5e14a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 590521712345767511, guid: c62c44a12b3bd0b478d4da7791c5e14a,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 700086023128138875, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_Name
@@ -27639,22 +27745,22 @@ PrefabInstance:
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 144
+      value: 143
       objectReference: {fileID: 0}
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.50522
+      value: 4.74
       objectReference: {fileID: 0}
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19399838
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.426635
+      value: -11.61
       objectReference: {fileID: 0}
     - target: {fileID: 702521505707453583, guid: c62c44a12b3bd0b478d4da7791c5e14a,
         type: 3}
@@ -28783,6 +28889,8 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
+  a_puzzleSolved: {fileID: 0}
+  a_puzzleSolvedVolume: 0.25
   objectActivatedWhenPuzzleIsSolved: {fileID: 0}
 --- !u!114 &1986532289
 MonoBehaviour:
@@ -28970,6 +29078,8 @@ MonoBehaviour:
     objValue: {fileID: 0}
     audioValue: {fileID: 0}
   popupSpeed: 1
+  a_puzzleSolved: {fileID: 0}
+  a_puzzleSolvedVolume: 0.25
   objectActivatedWhenPuzzleIsSolved: {fileID: 0}
 --- !u!114 &1994930299
 MonoBehaviour:
@@ -29682,6 +29792,7 @@ MonoBehaviour:
   m_normalFliclerTime: 0.5
   m_isFlickering: 0
   m_flickerDuration: 1.3
+  intensity: 0
 --- !u!1001 &2056921831
 PrefabInstance:
   m_ObjectHideFlags: 0
