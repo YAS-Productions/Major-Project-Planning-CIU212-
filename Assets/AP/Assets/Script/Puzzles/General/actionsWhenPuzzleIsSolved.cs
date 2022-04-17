@@ -41,9 +41,9 @@ public class actionsWhenPuzzleIsSolved : MonoBehaviour {
 
 
     //TO MAKE THE INSPECTOR NOT FUCKED UNCOMMENT THESE//
-    //public AudioClip a_puzzleSolved;
-    //public float a_puzzleSolvedVolume = .25f;
-    //private AudioSource a_Source;
+    public AudioClip a_puzzleSolved;
+    public float a_puzzleSolvedVolume = .25f;
+    private AudioSource a_Source;
 
     public GameObject               objectActivatedWhenPuzzleIsSolved;                              // If the gameobject is activated, the puzzle is solved
 
