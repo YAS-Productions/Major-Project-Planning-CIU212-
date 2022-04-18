@@ -41,6 +41,7 @@ public class Enable_Monitor : MonoBehaviour
                 {
                     Material mat = monitors[i].GetComponent<Renderer>().material;
                     mat.EnableKeyword("_EMISSION");
+                    
                     mat.SetColor("_EmissionColor", new Color(0, 191, 160) * intensity);
                 }
 
