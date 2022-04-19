@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EscButtonFix : MonoBehaviour
 {
-
     public GameObject inputThing;
-    public GameObject optionsThing;
+    public CanvasGroup inputCanvas;
+    public CanvasGroup optionsCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,8 @@ public class EscButtonFix : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Escape))
             {
-                inputThing.SetActive(false);
-                optionsThing.SetActive(true);
+                inputCanvas.alpha = 0;
+                optionsCanvas.alpha = 1;
             }
 
 
