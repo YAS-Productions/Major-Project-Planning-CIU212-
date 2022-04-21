@@ -7,6 +7,7 @@ public class Enable_Monitor : MonoBehaviour
     public GameObject[] monitors;
     //float intensity = 0.01f;
     public GameObject[] staticMonitors;
+    public GameObject[] monitorLights;
 
     public Animator lever;
     //public GameObject interactTut;
@@ -19,8 +20,12 @@ public class Enable_Monitor : MonoBehaviour
     void Start()
     {
         lever.GetComponent<Animator>();
-       
-        
+
+        for (int i = 0; i < monitorLights.Length; i++)
+        {
+            monitorLights[i].gameObject.SetActive(false);
+        }
+
     }
 
     //private void Update()
@@ -57,9 +62,14 @@ public class Enable_Monitor : MonoBehaviour
                     staticMat.EnableKeyword("_EMISSION");
                 }
 
+                for (int i = 0; i < monitorLights.Length; i++)
+                {
+                    monitorLights[i].gameObject.SetActive(true);
+                }
+
                 lever.SetBool("isActivated", true);
                 TriggerVaultDoor();
-                lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
+                //lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
             }
         }
     }
