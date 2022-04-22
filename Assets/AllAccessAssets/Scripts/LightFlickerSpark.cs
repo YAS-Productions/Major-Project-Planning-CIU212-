@@ -7,7 +7,7 @@ public class LightFlickerSpark : MonoBehaviour
     [SerializeField]
     private ParticleSystem m_particleSystem;
     [SerializeField]
-    private Light m_light;
+    private Light[] m_light;
     [SerializeField]
     private Material m_emissiveMaterial;
     [SerializeField]
@@ -17,6 +17,7 @@ public class LightFlickerSpark : MonoBehaviour
     [SerializeField]
     private float m_flickerDuration;
     private AudioSource m_audioSource;
+    public float intensity;
 
     private Color m_originalEmmisionColor;
     private float currentTimer;
@@ -29,6 +30,7 @@ public class LightFlickerSpark : MonoBehaviour
         currentTimer = m_normalFliclerTime;
         m_originalEmmisionColor = m_emissiveMaterial.GetColor("_EmissionColor");
         m_audioSource = this.GetComponent<AudioSource>();
+        
     }
 
     private void Update()
@@ -42,7 +44,9 @@ public class LightFlickerSpark : MonoBehaviour
             else
             {
                 m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
-                m_light.intensity = 1.25f;
+                m_light[0].GetComponent<Light>().intensity = intensity;
+                m_light[1].GetComponent<Light>().intensity = intensity;
+                //m_light.intensity = intensity;
                 m_isLightOn = true;
                 m_isFlickering = false;
                 currentTimer = Random.Range(4f, 7f);
@@ -72,14 +76,18 @@ public class LightFlickerSpark : MonoBehaviour
                 {
                     m_emissiveMaterial.SetColor("_EmissionColor", m_offColor);
                     currentTimer = Random.Range(0.005f, 0.12f);
-                    m_light.intensity = 0;
+                    //m_light.intensity = 0;
+                    m_light[0].GetComponent<Light>().intensity = 0;
+                    m_light[1].GetComponent<Light>().intensity = 0;
                     m_isLightOn = false;
                 }
                 else
                 {
                     m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
                     currentTimer = Random.Range(0.005f, 0.12f);
-                    m_light.intensity = 1.25f;
+                    //m_light.intensity = intensity;
+                    m_light[0].GetComponent<Light>().intensity = intensity;
+                    m_light[1].GetComponent<Light>().intensity = intensity;
                     m_isLightOn = true;
                 }
             }

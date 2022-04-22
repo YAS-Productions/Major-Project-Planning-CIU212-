@@ -28,7 +28,7 @@ public class TV_Functionality : MonoBehaviour
     {
         videoPlayer.clip = channels[currentChannel];
 
-        if (currentChannel == 4)
+        if (currentChannel == 5)
         {
             puzzleComplete.SetActive(true);
             if(playJingle == false)

@@ -5,10 +5,12 @@ using UnityEngine;
 public class Enable_Monitor : MonoBehaviour
 {
     public GameObject[] monitors;
-    float intensity = 0.01f;
+    //float intensity = 0.01f;
+    public GameObject[] staticMonitors;
+    public GameObject[] monitorLights;
 
     public Animator lever;
-    public GameObject interactTut;
+    //public GameObject interactTut;
 
     public GameObject vaultDoor;
     public GameObject lightsTrigger;
@@ -18,8 +20,12 @@ public class Enable_Monitor : MonoBehaviour
     void Start()
     {
         lever.GetComponent<Animator>();
-       
-        
+
+        for (int i = 0; i < monitorLights.Length; i++)
+        {
+            monitorLights[i].gameObject.SetActive(false);
+        }
+
     }
 
     //private void Update()
@@ -40,37 +46,54 @@ public class Enable_Monitor : MonoBehaviour
                 for (int i = 0; i < monitors.Length; i++)
                 {
                     Material mat = monitors[i].GetComponent<Renderer>().material;
-                    mat.EnableKeyword("_EMISSION");
-                    mat.SetColor("_EmissionColor", new Color(0, 191, 160) * intensity);
+                    mat.SetFloat("Vector1_3AB71CF9", 1);
+
+                    
+
+
+                    //mat.EnableKeyword("_EMISSION");
+
+                    //mat.SetColor("_EmissionColor", new Color(0, 191, 160) * intensity);
+                }
+
+                for (int i = 0; i < staticMonitors.Length; i++)
+                {
+                    Material staticMat = staticMonitors[i].GetComponent<Renderer>().material;
+                    staticMat.EnableKeyword("_EMISSION");
+                }
+
+                for (int i = 0; i < monitorLights.Length; i++)
+                {
+                    monitorLights[i].gameObject.SetActive(true);
                 }
 
                 lever.SetBool("isActivated", true);
                 TriggerVaultDoor();
-                lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
+                //lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
             }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            interactTut.SetActive(true);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other.CompareTag("Player"))
+    //    {
+    //        interactTut.SetActive(true);
+    //    }
+    //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            interactTut.SetActive(false);
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if(other.CompareTag("Player"))
+    //    {
+    //        interactTut.SetActive(false);
+    //    }
+    //}
 
     void TriggerVaultDoor()
     {
         vaultDoor.transform.Rotate(0, 90, 0);
-        Destroy(interactTut);
+        //Destroy(interactTut);
         
         //Destroy(this);
         

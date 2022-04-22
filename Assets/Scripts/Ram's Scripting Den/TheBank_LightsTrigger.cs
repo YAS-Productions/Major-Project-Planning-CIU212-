@@ -5,7 +5,7 @@ using UnityEngine;
 public class TheBank_LightsTrigger : MonoBehaviour
 {
     public GameObject[] lights;
-    public GameObject tutorial;
+    public GameObject doorToSurveillance;
 
     // Start is called before the first frame update
     void Start()
@@ -24,23 +24,24 @@ public class TheBank_LightsTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
 
-            tutorial.SetActive(true);
+            //tutorial.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 TurnOffLights();
-                tutorial.SetActive(false);
+                doorToSurveillance.transform.eulerAngles = new Vector3(0, 90, 0);
+                //tutorial.SetActive(false);
             }
 
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            tutorial.SetActive(false);
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("Player"))
+    //    {
+    //        tutorial.SetActive(false);
+    //    }
+    //}
 
     void TurnOffLights()
     {

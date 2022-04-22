@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000170E8F8A988 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000149F20C6E98 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -19,10 +19,68 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 13307296
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 52416
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000123133F158
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFDC4F00AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFDC4F00AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFDC4F00BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFDC4F00C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001497E438EC8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Flashlight_Switch_02', format=5, channels=1, frequency=48000, lengthbytes=2272, lengthpcm=10124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.550934.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 13307296
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 52416
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000123133F158
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFDC4F00AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFDC4F00AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFDC4F00BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFDC4F00C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001497E438EC8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Flashlight_Switch_03', format=5, channels=1, frequency=48000, lengthbytes=2944, lengthpcm=11444, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.256500.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 13307296
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 52416
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000123133F158
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFDC4F00AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFDC4F00AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFDC4F00BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFDC4F00C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001497E43E778
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='household_flashlight_torch_small_plastic_switch+button_press_on_or_off', format=5, channels=2, frequency=48000, lengthbytes=5728, lengthpcm=20736, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.855377.
+[LOG] SoundI::release                          :  (0000014B66213CF8)
+[LOG] SoundI::release                          :     Flashlight_Switch_03 (000001497B9F5768)
+[LOG] SoundI::release                          :  (0000014B66214E38)
+[LOG] SoundI::release                          :     Flashlight_Switch_02 (000001497B9F4588)
+[LOG] SoundI::release                          :  (0000014B66212E98)
+[LOG] SoundI::release                          :     household_flashlight_torch_small_plastic_switch+button_press_on_or_off (000001497B9F5AA8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+[WRN] OutputWASAPI::mixerThread                : Starvation detected in WASAPI output buffer!
