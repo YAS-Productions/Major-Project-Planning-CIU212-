@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using FMODUnity;
 
 public class destruction : MonoBehaviour
 {
@@ -78,9 +79,9 @@ public class destruction : MonoBehaviour
         {
             FX.SetActive(true);
         }
-        if (GetComponent<AudioSource>())
+        if (GetComponent<StudioEventEmitter>())
         {
-            GetComponent<AudioSource>().Play();
+            GetComponent<StudioEventEmitter>().Play();
         }
         GetComponent<Renderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
