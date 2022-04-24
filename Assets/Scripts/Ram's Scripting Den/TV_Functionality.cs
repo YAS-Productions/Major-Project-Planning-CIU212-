@@ -38,6 +38,7 @@ public class TV_Functionality : MonoBehaviour
             }
             
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -69,16 +70,17 @@ public class TV_Functionality : MonoBehaviour
 
     void ChangeChannel()
     {
-        
-        currentChannel++;
-        //currentChannel++;
+
+
+        currentChannel += 1;
 
         Debug.Log(currentChannel);
 
-        if(currentChannel >= channels.Length)
+        if (currentChannel >= channels.Length)
         {
             currentChannel = 0;
         }
+
 
         //videoPlayer.clip = channels[0];
     }
