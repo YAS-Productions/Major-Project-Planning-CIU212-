@@ -31,10 +31,11 @@ public class infoUI : MonoBehaviour {
 
 	public int 					creationCounter = 0;		// The number of info ui
 	public float 				timer = 0;					// time between to ui info creation
-	public bool 				b_inCreation = false;		// use to know if is possible to create a new info Ui on screen
+	public bool 				b_inCreation = false;       // use to know if is possible to create a new info Ui on screen
 
-	public string 				txt_Inventory = "New Item in the inventory :";
+	public Text txt_Inventory; /*= "New Item in the inventory :";*/
 	public string 				txt_Diary = "New document in the diary :";
+	public Font testFont;
 	public int					inventoryID = 0;
 	public int					diaryID = 0;
 
@@ -145,6 +146,7 @@ public class infoUI : MonoBehaviour {
 		} else if (newSpriteType == "Inventory") {
 			listSprite.Add (inventorySprite);
 			listTitle.Add (txt_Inventory + "\n" +  Title);
+			txt_Inventory.font = testFont;
 		}
 		else if (newSpriteType == "Feedback") {
 			listSprite.Add (feedbackSprite);
