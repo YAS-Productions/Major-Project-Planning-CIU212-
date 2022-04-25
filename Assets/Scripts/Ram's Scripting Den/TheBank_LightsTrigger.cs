@@ -7,6 +7,8 @@ public class TheBank_LightsTrigger : MonoBehaviour
     public GameObject[] lights;
     public GameObject doorToSurveillance;
 
+    public GameObject icon;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,21 +21,21 @@ public class TheBank_LightsTrigger : MonoBehaviour
 
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.CompareTag("Player"))
+    //    {
 
-            //tutorial.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                TurnOffLights();
-                doorToSurveillance.transform.eulerAngles = new Vector3(0, 90, 0);
-                //tutorial.SetActive(false);
-            }
+    //        //tutorial.SetActive(true);
+    //        if (Input.GetKeyDown(KeyCode.Mouse0) || icon.activeInHierarchy)
+    //        {
+    //            TurnOffLights();
+    //            doorToSurveillance.transform.eulerAngles = new Vector3(0, 90, 0);
+    //            //tutorial.SetActive(false);
+    //        }
 
-        }
-    }
+    //    }
+    //}
 
     //private void OnTriggerExit(Collider other)
     //{
@@ -43,14 +45,14 @@ public class TheBank_LightsTrigger : MonoBehaviour
     //    }
     //}
 
-    void TurnOffLights()
+    public void TurnOffLights()
     {
         Debug.Log("KeyPressed");
         for (int i = 0; i < lights.Length; i++)
         {
             lights[i].SetActive(false);
         }
-
+        doorToSurveillance.transform.eulerAngles = new Vector3(0, 90, 0);
 
 
     }
