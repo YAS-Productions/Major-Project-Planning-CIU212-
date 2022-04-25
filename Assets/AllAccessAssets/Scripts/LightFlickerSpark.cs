@@ -44,8 +44,13 @@ public class LightFlickerSpark : MonoBehaviour
             else
             {
                 m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
-                m_light[0].GetComponent<Light>().intensity = intensity;
-                m_light[1].GetComponent<Light>().intensity = intensity;
+
+                for (int i = 0; i < m_light.Length; i++)
+                {
+                    m_light[i].GetComponent<Light>().intensity = intensity;
+                }
+                //m_light[0].GetComponent<Light>().intensity = intensity;
+                //m_light[1].GetComponent<Light>().intensity = intensity;
                 //m_light.intensity = intensity;
                 m_isLightOn = true;
                 m_isFlickering = false;
@@ -77,8 +82,12 @@ public class LightFlickerSpark : MonoBehaviour
                     m_emissiveMaterial.SetColor("_EmissionColor", m_offColor);
                     currentTimer = Random.Range(0.005f, 0.12f);
                     //m_light.intensity = 0;
-                    m_light[0].GetComponent<Light>().intensity = 0;
-                    m_light[1].GetComponent<Light>().intensity = 0;
+                    for (int i = 0; i < m_light.Length; i++)
+                    {
+                        m_light[i].GetComponent<Light>().intensity = 0;
+                    }
+                    //m_light[0].GetComponent<Light>().intensity = 0;
+                    //m_light[1].GetComponent<Light>().intensity = 0;
                     m_isLightOn = false;
                 }
                 else
@@ -86,8 +95,12 @@ public class LightFlickerSpark : MonoBehaviour
                     m_emissiveMaterial.SetColor("_EmissionColor", m_originalEmmisionColor);
                     currentTimer = Random.Range(0.005f, 0.12f);
                     //m_light.intensity = intensity;
-                    m_light[0].GetComponent<Light>().intensity = intensity;
-                    m_light[1].GetComponent<Light>().intensity = intensity;
+                    for (int i = 0; i < m_light.Length; i++)
+                    {
+                        m_light[i].GetComponent<Light>().intensity = intensity;
+                    }
+                    //m_light[0].GetComponent<Light>().intensity = intensity;
+                    //m_light[1].GetComponent<Light>().intensity = intensity;
                     m_isLightOn = true;
                 }
             }
