@@ -147,6 +147,7 @@ public class objTranslateRotate : MonoBehaviour {
 
 		if (checkFocusMode())camManager = GetComponent<focusCamEffect> ();
 
+
 	//-> Rotation case
 		if (movementType == 0) {
 			hinge = objPivot.GetComponent<HingeJoint> ();					// init hinge joint
