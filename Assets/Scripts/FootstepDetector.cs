@@ -72,5 +72,9 @@ public class FootstepDetector : MonoBehaviour
         {
             FMODUnity.RuntimeManager.PlayOneShot("event:/Footsteps/Concrete");
         }
+        else if (hit.collider.tag == "Marble_Floor")
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Footsteps/Marble");
+        }
     }
 }

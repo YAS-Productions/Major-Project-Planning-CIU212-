@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{8dbec149-5908-4a67-bcd0-fa1953485e61}">
+		<property name="name">
+			<value>FakeMaster</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{92c9f3e4-0043-4db1-a775-8d1e780eb129}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{828b98db-d3e6-4850-aaa9-aac41134d879}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e160b9f4-0c20-4ea7-8518-adcc183e5f7a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{92c9f3e4-0043-4db1-a775-8d1e780eb129}">
+		<relationship name="effects">
+			<destination>{7933bb4d-5e00-4c97-8c07-21ded51a3ee0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{828b98db-d3e6-4850-aaa9-aac41134d879}" />
+	<object class="MixerBusFader" id="{7933bb4d-5e00-4c97-8c07-21ded51a3ee0}" />
+</objects>
