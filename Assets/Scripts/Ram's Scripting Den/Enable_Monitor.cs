@@ -16,6 +16,8 @@ public class Enable_Monitor : MonoBehaviour
     public GameObject lightsTrigger;
 
     public GameObject dialogueTrigger;
+
+    public GameObject CCTVSound;
     
 
     // Start is called before the first frame update
@@ -72,6 +74,7 @@ public class Enable_Monitor : MonoBehaviour
                 dialogueTrigger.SetActive(true);
                 lever.SetBool("isActivated", true);
                 TriggerVaultDoor();
+                CCTVSound.SetActive(true);
                 //lightsTrigger.GetComponent<TheBank_LightsTrigger>().TurnOnLights();
             }
         }

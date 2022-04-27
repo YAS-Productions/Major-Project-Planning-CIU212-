@@ -8,6 +8,8 @@ public class TheBank_LightsTrigger : MonoBehaviour
     public GameObject doorToSurveillance;
 
     public GameObject icon;
+    public GameObject killswitchSound;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +55,7 @@ public class TheBank_LightsTrigger : MonoBehaviour
             lights[i].SetActive(false);
         }
         doorToSurveillance.transform.eulerAngles = new Vector3(0, 90, 0);
-
+        killswitchSound.SetActive(true);
 
     }
 
@@ -63,6 +65,7 @@ public class TheBank_LightsTrigger : MonoBehaviour
         for (int i = 0; i < lights.Length; i++)
         {
             lights[i].SetActive(true);
+            
         }
         //tutorial.SetActive(false);
     }
