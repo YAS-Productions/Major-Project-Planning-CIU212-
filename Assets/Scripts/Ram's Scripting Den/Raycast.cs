@@ -19,13 +19,14 @@ public class Raycast : MonoBehaviour
         icon = GameObject.FindGameObjectWithTag("FuseIcon");
 
         mainCam = GetComponent<Camera>();
-        theBank_LightsTrigger = GameObject.FindObjectOfType(typeof(TheBank_LightsTrigger)) as TheBank_LightsTrigger;
+        theBank_LightsTrigger = FindObjectOfType(typeof(TheBank_LightsTrigger)) as TheBank_LightsTrigger;
     }
 
     // Update is called once per frame
     void Update()
     {
         icon = GameObject.FindGameObjectWithTag("FuseIcon");
+        theBank_LightsTrigger = FindObjectOfType(typeof(TheBank_LightsTrigger)) as TheBank_LightsTrigger;
 
         Ray ray = mainCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
