@@ -11,12 +11,17 @@ public class Raycast : MonoBehaviour
     public float raycastDistance;
     private bool canTurnOff;
 
+  
+
+   
+
     TheBank_LightsTrigger theBank_LightsTrigger;
 
     // Start is called before the first frame update
     void Start()
     {
         icon = GameObject.FindGameObjectWithTag("FuseIcon");
+        
 
         mainCam = GetComponent<Camera>();
         theBank_LightsTrigger = FindObjectOfType(typeof(TheBank_LightsTrigger)) as TheBank_LightsTrigger;
@@ -25,6 +30,8 @@ public class Raycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         icon = GameObject.FindGameObjectWithTag("FuseIcon");
         theBank_LightsTrigger = FindObjectOfType(typeof(TheBank_LightsTrigger)) as TheBank_LightsTrigger;
 
@@ -54,6 +61,8 @@ public class Raycast : MonoBehaviour
             theBank_LightsTrigger.TurnOffLights();
         }
 
+       
+      
 
     }
 }
