@@ -61,14 +61,21 @@ public class TV_Functionality : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                ChangeChannel();
+                ChangeChannelUP();
+            }
+        }
+        if (other.CompareTag("Player"))
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                ChangeChannelDOWN();
             }
         }
     }
 
-    void ChangeChannel()
+    void ChangeChannelUP()
     {
 
 
@@ -77,6 +84,22 @@ public class TV_Functionality : MonoBehaviour
         Debug.Log(currentChannel);
 
         if (currentChannel >= channels.Length)
+        {
+            currentChannel = 0;
+        }
+
+
+        //videoPlayer.clip = channels[0];
+    }
+    void ChangeChannelDOWN()
+    {
+
+
+        currentChannel -= 1;
+
+       
+
+        if (currentChannel <= 0)
         {
             currentChannel = 0;
         }
