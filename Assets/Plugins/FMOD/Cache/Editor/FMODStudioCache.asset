@@ -1056,7 +1056,6 @@ MonoBehaviour:
   - {fileID: -4109570837604745329}
   - {fileID: 2026080582466223574}
   - {fileID: 6307766188223769836}
-  - {fileID: 7047803481882657078}
   - {fileID: 6409237848643172803}
   - {fileID: 1851578271718597048}
   - {fileID: -7099356295871561107}
@@ -1093,12 +1092,13 @@ MonoBehaviour:
   - {fileID: 3040327740581254177}
   - {fileID: 7706998951682256189}
   - {fileID: 2209868392837912267}
+  - {fileID: 5784506578997302733}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3984541840276053070}
   StringsBanks:
   - {fileID: 6443390369716741324}
-  cacheTime: 637870498265715439
+  cacheTime: 637871193931412762
   cacheVersion: 10
 --- !u!114 &826260288921130517
 MonoBehaviour:
@@ -1601,10 +1601,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637870498265635630
+  lastModified: 637871193931313009
   FileSizes:
   - Name: Desktop
-    Value: 22549568
+    Value: 22601184
   Exists: 1
 --- !u!114 &4011973659617680759
 MonoBehaviour:
@@ -1811,7 +1811,7 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637870498247061872
+  lastModified: 637871193913595235
   FileSizes:
   - Name: Desktop
     Value: 765600
@@ -1924,6 +1924,33 @@ MonoBehaviour:
   MinDistance: 0.15
   MaxDistance: 2
   Length: 59710
+--- !u!114 &5784506578997302733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceovers/Bank/Bank_03_Safe
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceovers/Bank/Bank_03_Safe
+  Guid:
+    Data1: 2131217226
+    Data2: 1095061446
+    Data3: 998770307
+    Data4: -789570579
+  Banks:
+  - {fileID: 3984541840276053070}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.5
+  MaxDistance: 45
+  Length: 3929
 --- !u!114 &5809313363867568566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2047,10 +2074,10 @@ MonoBehaviour:
   Path: Assets/Audio/Crossing-Sig-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637870498265715439
+  lastModified: 637871193931412762
   FileSizes:
   - Name: Desktop
-    Value: 4882
+    Value: 4880
   Exists: 1
 --- !u!114 &6843407419045932266
 MonoBehaviour:
@@ -2079,33 +2106,6 @@ MonoBehaviour:
   MinDistance: 0.1
   MaxDistance: 3
   Length: 5064
---- !u!114 &7047803481882657078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Voiceovers/Bank/Bank_03_Fraud
-  m_EditorClassIdentifier: 
-  Path: event:/Voiceovers/Bank/Bank_03_Fraud
-  Guid:
-    Data1: 2131217226
-    Data2: 1095061446
-    Data3: 998770307
-    Data4: -789570579
-  Banks:
-  - {fileID: 3984541840276053070}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0.5
-  MaxDistance: 45
-  Length: 0
 --- !u!114 &7113161666145993741
 MonoBehaviour:
   m_ObjectHideFlags: 0
