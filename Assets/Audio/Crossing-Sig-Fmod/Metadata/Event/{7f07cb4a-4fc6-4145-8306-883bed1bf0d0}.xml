@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{7f07cb4a-4fc6-4145-8306-883bed1bf0d0}">
 		<property name="name">
-			<value>Bank_03_Fraud</value>
+			<value>Bank_03_Safe</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{eabe1139-5f45-402c-98d3-c5853723d9d6}" />
 	<object class="MarkerTrack" id="{cd4a80d0-915f-4560-9ac5-ded7bcb12a11}" />
 	<object class="GroupTrack" id="{431abdd5-79d8-461b-972a-bc84fcc19de0}">
+		<relationship name="modules">
+			<destination>{33291448-fa00-44b4-8f60-c6cf5856b9e3}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{386afc06-cf8c-4e49-ae40-309f37ab257d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{f0acb709-0894-4170-ae71-5cddba5948d0}" />
+	<object class="Timeline" id="{f0acb709-0894-4170-ae71-5cddba5948d0}">
+		<relationship name="modules">
+			<destination>{33291448-fa00-44b4-8f60-c6cf5856b9e3}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{085fb59f-d1df-4e64-aaac-8b7a40aee86f}">
 		<relationship name="effectChain">
 			<destination>{fa5e85c1-2421-4ad1-af58-f183922b1185}</destination>
@@ -81,6 +88,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{453afa37-3023-4ef3-b6bd-f8a8690818bb}" />
+	<object class="SingleSound" id="{33291448-fa00-44b4-8f60-c6cf5856b9e3}">
+		<property name="length">
+			<value>3.9296250000000001</value>
+		</property>
+		<property name="name" />
+		<relationship name="audioFile">
+			<destination>{2fc054a8-3c63-41e8-8e96-87cbaf8fa31d}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{386afc06-cf8c-4e49-ae40-309f37ab257d}">
 		<property name="volume">
 			<value>-10</value>
