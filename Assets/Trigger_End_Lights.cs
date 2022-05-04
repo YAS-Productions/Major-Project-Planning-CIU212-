@@ -7,6 +7,7 @@ public class Trigger_End_Lights : MonoBehaviour
    
     public GameObject spotlight;
     public GameObject killSwitchSound;
+    public GameObject voiceLine;
     
 
     private void OnTriggerEnter(Collider other)
@@ -16,6 +17,12 @@ public class Trigger_End_Lights : MonoBehaviour
             
             spotlight.SetActive(true);
             killSwitchSound.SetActive(true);
+            Invoke("PlayVoiceLine", 1f);
         }
+    }
+
+    public void PlayVoiceLine()
+    {
+        voiceLine.SetActive(true);
     }
 }
