@@ -16,13 +16,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.929375, z: 0.88799536, w: 0.19417477}
+    m_Value: {x: 0.79439414, y: 0.8268777, z: 1, w: 0.47191012}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.9483076, y: 0.9113063, z: 1, w: 0.052956756}
+    m_Value: {x: 1, y: 0.8805538, z: 0.78318906, w: 0.30014777}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 0.946415, y: 0.93793404, z: 1, w: 0.08826126}
+    m_Value: {x: 1, y: 0.8343184, z: 0.62648726, w: 0.2006208}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 1.15
+    m_Value: 1.17
   contrast:
     m_OverrideState: 1
     m_Value: 15
@@ -106,11 +106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 0.39
     min: 0
   intensity:
     m_OverrideState: 1
@@ -140,10 +140,10 @@ MonoBehaviour:
     min: 0
     max: 16
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 0}
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
 --- !u!114 &-36564936244295424
@@ -171,7 +171,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.384
+    m_Value: 0.498
     min: 0
     max: 1
   smoothness:
@@ -202,6 +202,26 @@ MonoBehaviour:
   - {fileID: 1616100752468994058}
   - {fileID: -36564936244295424}
   - {fileID: 2713792577462357981}
+  - {fileID: 1235619144872335207}
+--- !u!114 &1235619144872335207
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.04
+    min: 0
+    max: 1
 --- !u!114 &1616100752468994058
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -218,7 +238,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.9826449, y: 0.9798984, z: 1, w: -0.025662895}
+    m_Value: {x: 1, y: 0.97832483, z: 0.9824679, w: -0.025662895}
   gamma:
     m_OverrideState: 1
     m_Value: {x: 0.98506933, y: 0.9999997, z: 1, w: 0.05132592}
@@ -237,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29fa0085f50d5e54f8144f766051a691, type: 3}
   m_Name: FilmGrain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   type:
     m_OverrideState: 1
