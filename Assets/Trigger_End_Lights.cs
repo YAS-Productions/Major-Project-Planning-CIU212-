@@ -42,8 +42,6 @@ public class Trigger_End_Lights : MonoBehaviour
                 player.GetComponent<Rigidbody>().isKinematic = true;
                 canWalk = false;
             }
-            
-
             Invoke("EnableMovement", voiceLineDuration);
         }
     }
