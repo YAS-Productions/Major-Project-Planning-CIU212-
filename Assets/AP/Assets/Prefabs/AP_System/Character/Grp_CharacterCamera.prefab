@@ -1028,14 +1028,16 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 0}
+  - {fileID: 0}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -1503,6 +1505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8880060372455544647, guid: afdc557de3f0b4b7ca8c3a03efd2607b,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2096951
       objectReference: {fileID: 0}
     - target: {fileID: 8880060372455544664, guid: afdc557de3f0b4b7ca8c3a03efd2607b,
         type: 3}
