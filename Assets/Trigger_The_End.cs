@@ -18,6 +18,8 @@ public class Trigger_The_End : MonoBehaviour
 
     public GameObject credits;
 
+    public GameObject finalVoiceLine;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,5 +61,10 @@ public class Trigger_The_End : MonoBehaviour
     void RollCredits()
     {
         credits.SetActive(true);
+    }
+
+    void FinalVoiceLine()
+    {
+        finalVoiceLine.SetActive(true);
     }
 }
