@@ -22,7 +22,7 @@ public class Safe_Functionality : MonoBehaviour
     public Animator safe;
 
     public GameObject safeFocus;
-    public GameObject safeSound;
+    
 
 
     // Start is called before the first frame update
@@ -75,15 +75,15 @@ public class Safe_Functionality : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             wheels[wheelIndex].transform.Rotate(new Vector3(0, 0, 30f) * Time.deltaTime);
-            safeSound.SetActive(true);
+           
         }
-        else safeSound.SetActive(false);
+       
         if (Input.GetKey(KeyCode.D))
         {
             wheels[wheelIndex].transform.Rotate(new Vector3(0, 0, -30f) * Time.deltaTime);
-            safeSound.SetActive(true);
+            
         }
-        else safeSound.SetActive(false);
+        
 
 
 
