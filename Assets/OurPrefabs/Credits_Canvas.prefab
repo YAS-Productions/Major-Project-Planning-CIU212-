@@ -27,14 +27,14 @@ RectTransform:
   m_GameObject: {fileID: 5561427103171925420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.275, y: 1.275, z: 1.275}
   m_Children: []
   m_Father: {fileID: 5561427103756394056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 12}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5561427103171925423
@@ -82,6 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5561427103742391164}
   - component: {fileID: 5561427103742391165}
+  - component: {fileID: 7492392237586646329}
   m_Layer: 0
   m_Name: Credit Scroll
   m_TagString: Untagged
@@ -97,7 +98,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5561427103742391155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -656.5, y: -317, z: 0}
+  m_LocalPosition: {x: -656.5, y: -347, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5561427103970432363}
@@ -123,6 +124,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7492392237586646329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5561427103742391155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0597e66e81c5ab42977ecc819c9832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5561427103753995194
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +232,7 @@ GameObject:
   - component: {fileID: 5561427103756394061}
   - component: {fileID: 941733767}
   - component: {fileID: 4691745389645185526}
+  - component: {fileID: 5608823099814082686}
   m_Layer: 5
   m_Name: Credits_Canvas
   m_TagString: Untagged
@@ -330,6 +344,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ae5808140b22f949bea5967e4a8425a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5608823099814082686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5561427103756394060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0597e66e81c5ab42977ecc819c9832e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5561427103900112708

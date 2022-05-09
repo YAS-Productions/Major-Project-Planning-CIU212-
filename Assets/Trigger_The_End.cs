@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Trigger_The_End : MonoBehaviour
 {
     public GameObject endCanvas;
@@ -67,4 +68,6 @@ public class Trigger_The_End : MonoBehaviour
     {
         finalVoiceLine.SetActive(true);
     }
+
+    
 }
