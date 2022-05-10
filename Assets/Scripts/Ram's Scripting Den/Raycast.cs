@@ -8,6 +8,7 @@ public class Raycast : MonoBehaviour
 
     [SerializeField]
     private GameObject icon;
+
     public float raycastDistance;
     private bool canTurnOff;
 
@@ -43,10 +44,10 @@ public class Raycast : MonoBehaviour
             print(hit.transform.name);
 
         }
-        if (hit.transform.tag == "TriggerIcon")
+        if (Physics.Raycast(ray, out hit, raycastDistance) && (hit.transform.tag == "TriggerIcon"))
         {
-            icon.GetComponent<SpriteRenderer>().enabled = true;
-            canTurnOff = true;
+           icon.GetComponent<SpriteRenderer>().enabled = true;
+           canTurnOff = true;
 
         }
         else
